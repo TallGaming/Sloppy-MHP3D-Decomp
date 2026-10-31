@@ -1,7 +1,8 @@
 # Current handoff
 
-The project is being prepared for public GitHub collaboration at the user's
-request. The original local evidence and tools remain separate. Start with
+The project is public at [TallGaming/Sloppy-MHP3D-Decomp](https://github.com/TallGaming/Sloppy-MHP3D-Decomp)
+at the user's request. Initial publication is commit `5a80710`; anonymous access
+was verified. The original local evidence and tools remain separate. Start with
 [CURRENT_STATUS](docs/CURRENT_STATUS.md) and [HELP_WANTED](docs/HELP_WANTED.md).
 
 The latest completed diagnostic is Bucket 3AL: the same readable key-advance

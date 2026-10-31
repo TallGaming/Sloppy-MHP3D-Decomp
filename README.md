@@ -4,7 +4,7 @@ We are working toward readable source that rebuilds **Monster Hunter Portable
 3rd, Japanese PSP release ULJM05800 v1.02**, byte for byte. We are currently
 identifying the original build pipeline and asking other PSP decompilers for help.
 
-Publication destination: [TallGaming/Sloppy-MHP3D-Decomp](https://github.com/TallGaming/Sloppy-MHP3D-Decomp).
+Project repository: [TallGaming/Sloppy-MHP3D-Decomp](https://github.com/TallGaming/Sloppy-MHP3D-Decomp).
 
 **Start with [HELP_WANTED](docs/HELP_WANTED.md)** for the compiler problem,
 reviewed function ranges, source drafts, exact diagnostic results and questions.

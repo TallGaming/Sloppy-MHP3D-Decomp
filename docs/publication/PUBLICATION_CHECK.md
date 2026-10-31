@@ -1,9 +1,10 @@
 # Publication preparation check — 2026-10-31
 
-This isolated public snapshot is prepared for review and an initial GitHub push.
-Nothing has been uploaded and no issue or other outreach message has been posted.
-The private working project was preserved. The user-supplied GitHub destination
-is now configured as `origin`.
+This records the preparation review and subsequent user-authorized GitHub
+publication on 2026-10-31. The audited snapshot was pushed as initial commit
+`5a80710`, and anonymous access to the public repository was verified. No issue
+or other outreach message has been posted. The private working project was
+preserved. The user-supplied GitHub destination is configured as `origin`.
 
 ## Included and excluded
 
@@ -41,7 +42,8 @@ disable newline conversion to preserve source hashes across platforms.
 - Case-sensitive ignore checks reject upper/mixed-case game/tool extensions,
   private directories and cookie JSON as well as the usual lowercase names.
 - CI and issue-form YAML parse successfully. CI actions are pinned to verified
-  upstream commit identities; CI itself has not run on GitHub.
+  upstream commit identities. Preparation results above are local tests;
+  live GitHub execution is reported separately on the repository's Actions page.
 
 Tooling tests do not establish a game match. The historical toolchain remains
 unlocked, there are zero credited or linked-source functions, and the full-game
@@ -76,19 +78,19 @@ implementation/fixture bytes remain identical to the freshly tested archive;
 source-export pins, links, whitespace exceptions and final archive bytes were
 checked again. The external release receipt records the updated payload hashes.
 
-There is no initial commit yet. Files are staged on `main`, with `origin` set to
+The initial audited snapshot is committed on `main`, with `origin` set to
 `https://github.com/TallGaming/Sloppy-MHP3D-Decomp.git`. The ZIP contains the public payload
 without Git metadata; the separately preserved private project is not packaged.
 
 ## Decisions still needed for publication
 
-The GitHub destination has been supplied. Authenticated Git access advertised
-no refs, but anonymous Git access failed and the anonymous GitHub API returned
-404. Public visibility therefore remains unverified; no visibility setting was
-changed. The public Git commit name/email has not been supplied, and no author
-identity is invented. A project-wide license also
-remains unselected; see [LICENSE_STATUS.md](../../LICENSE_STATUS.md). This is a
+The initially empty repository was made public after the explicit push request;
+anonymous API access confirms visibility. The authenticated account was verified
+as TallGaming. Its ID-based GitHub noreply address is configured only in this
+repository, rather than exposing a private email or changing global settings.
+A project-wide license remains unselected; see
+[LICENSE_STATUS.md](../../LICENSE_STATUS.md). This is a
 public research snapshot, not a claim that it is already licensed open source.
 
-[PUBLISH.md](PUBLISH.md) contains the final commit/remote/push steps after those
-values are supplied. The help request is prepared for review, not posted.
+[PUBLISH.md](PUBLISH.md) records publication and future update steps. The help
+request is available in Git; no separate issue or outreach message was posted.
