@@ -71,12 +71,29 @@ index. They explain the post-toolchain checkpoints, the matching contribution
 loop and the task/review record. These are instructions for future work, not a
 claim that the compiler or build gate was implemented.
 
-The revised staged payload contains **317 text files**, including **190 Markdown
+The revised public payload contains **317 text files**, including **190 Markdown
 documents with 599 local links and zero broken links**. The full test suite was
-not repeated for this documentation-only change. Python, bench and other
-implementation/fixture bytes remain identical to the freshly tested archive;
-source-export pins, links, whitespace exceptions and final archive bytes were
-checked again. The external release receipt records the updated payload hashes.
+not repeated for that documentation-only change. Implementation/fixture bytes
+were unchanged by the documentation revision; source-export pins, links,
+whitespace exceptions and final archive bytes were checked again. The external
+release receipt records updated payload hashes and later validation separately.
+
+## GitHub Windows test-fixture portability follow-up
+
+The initial Linux CI job passed. Windows CI exposed temporary-directory 8.3
+aliases: tools canonicalized the root, while fixture expectations retained its
+short spelling. This produced path-comparison failures despite referring to the
+same directory. Temporary roots in eleven test modules now use `Path.resolve()`
+before fixture paths are constructed (twelve setup-line changes). Assertions and
+rejection controls remain enabled; production tools, compiler profiles and all
+bench/game-source bytes are unchanged. SOURCE_EXPORT preserves historical source
+hashes and records updated public-copy hashes for the adapted tests.
+
+For this fix the complete suite passed again: **362 passed on Linux, no skips**;
+under an actual Windows short-alias temporary root, **360 passed and 2 platform
+checks skipped** (362 run, zero failures/errors). These remain tooling checks,
+separate from the unimplemented game gate. The release receipt records this
+validation; GitHub results are visible on the repository's Actions page.
 
 The initial audited snapshot is committed on `main`, with `origin` set to
 `https://github.com/TallGaming/Sloppy-MHP3D-Decomp.git`. The ZIP contains the public payload

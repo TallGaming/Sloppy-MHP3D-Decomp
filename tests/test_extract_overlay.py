@@ -184,7 +184,7 @@ class ExtractOverlayTests(unittest.TestCase):
     def setUp(self):
         temp = tempfile.TemporaryDirectory()
         self.addCleanup(temp.cleanup)
-        self.root = Path(temp.name)
+        self.root = Path(temp.name).resolve()
         self.iso = self.root / "synthetic.iso"
         self.elf = self.root / "synthetic.elf"
         self.output = self.root / "overlays"

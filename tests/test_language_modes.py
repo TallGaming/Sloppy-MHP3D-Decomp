@@ -172,7 +172,7 @@ class LanguageRunnerTests(unittest.TestCase):
     def setUp(self):
         temp = tempfile.TemporaryDirectory()
         self.addCleanup(temp.cleanup)
-        self.root = Path(temp.name)
+        self.root = Path(temp.name).resolve()
         self.report = self.root / "evidence/report.json"
         self.path = self.root / "config/language.json"
         self.source = self.write("bench/original.c", b"/* Invented frozen source; never compiled by these tests. */\n")

@@ -184,7 +184,7 @@ class SyntheticLinkRunnerTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.config_path = self.root / "config/link.json"
         self.report_path = self.root / "evidence/report.json"
         self.source = self.write("bench/smoke.c", b"/* Invented single-function source. */\n")

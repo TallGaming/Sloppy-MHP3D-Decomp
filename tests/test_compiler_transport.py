@@ -118,7 +118,7 @@ class TransportObservationTests(unittest.TestCase):
 
 class FrozenTransportTests(unittest.TestCase):
     def setUp(self):
-        temp = tempfile.TemporaryDirectory(); self.addCleanup(temp.cleanup); self.root = Path(temp.name)
+        temp = tempfile.TemporaryDirectory(); self.addCleanup(temp.cleanup); self.root = Path(temp.name).resolve()
         self.required = ["scripts/probe_compiler_transport.py", "config/compiler-transport.json",
                          "scripts/inspect_compiler_trace.py", "tests/test_compiler_transport.py"]
         self.freeze = {"both_final_pre_execution_reviews_received": True, "frozen_inputs": []}

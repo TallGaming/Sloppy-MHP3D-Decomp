@@ -206,7 +206,7 @@ class ExperimentRunnerTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.experiment_path = self.root / "config/source-hypotheses.json"
         self.report_path = self.root / "evidence/experiment.json"
         self.base = self.write("bench/compiler_probes.c", SOURCE)

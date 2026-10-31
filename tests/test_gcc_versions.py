@@ -19,7 +19,7 @@ class GccVersionRunnerTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.path = self.root / "config/gcc.json"
         self.report = self.root / "evidence/result.json"
         self.source = self.write("bench/original.c", b"/* Invented fixed source; no game bytes. */\n")

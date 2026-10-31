@@ -3474,66 +3474,66 @@
       "source_relative_path": "tests/test_archive_pointer.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "6fb5c852b3db6701bb284524f257ca53b6ba8bbab586fe90f2e7cc6706d4a7b0",
         "size": 19869
       },
       "public_copy": {
-        "sha256": "6fb5c852b3db6701bb284524f257ca53b6ba8bbab586fe90f2e7cc6706d4a7b0",
-        "size": 19869
+        "sha256": "8914d1a36c8b8fde3e51ea2d42ade047547532347418810756a945fd6759d1fc",
+        "size": 19879
       },
       "public_relative_path": "tests/test_bench_compiler.py",
       "source_relative_path": "tests/test_bench_compiler.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "cdebe8d2a38966259536d1161c345225d1417569986a3b5fe9259436447d0d0a",
         "size": 30027
       },
       "public_copy": {
-        "sha256": "cdebe8d2a38966259536d1161c345225d1417569986a3b5fe9259436447d0d0a",
-        "size": 30027
+        "sha256": "fcc8e0847da9a8bb237df8d3ef7acdb276df5cfe2dbf18eda36e2b56708800f8",
+        "size": 30037
       },
       "public_relative_path": "tests/test_call_relocation.py",
       "source_relative_path": "tests/test_call_relocation.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "e345f9e6ee0073311ee47045dec73f37dbd87eba6b0bf1aaf4aeb2023c4ea0e3",
         "size": 26192
       },
       "public_copy": {
-        "sha256": "e345f9e6ee0073311ee47045dec73f37dbd87eba6b0bf1aaf4aeb2023c4ea0e3",
-        "size": 26192
+        "sha256": "b0e6ccbf0f46bf3d04acc67d3a2f8f196c357efc72ed5357cbae8894bca4f03b",
+        "size": 26212
       },
       "public_relative_path": "tests/test_compiler_families.py",
       "source_relative_path": "tests/test_compiler_families.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "69e054c2dc179feebb8916cf0c153c5ab2ffb4fc8002f04dbd301bf7c9521083",
         "size": 14049
       },
       "public_copy": {
-        "sha256": "69e054c2dc179feebb8916cf0c153c5ab2ffb4fc8002f04dbd301bf7c9521083",
-        "size": 14049
+        "sha256": "9ad85fb6ecef4a369a425dea899132378e5ef57d43a2c024da58daa28df918ac",
+        "size": 14059
       },
       "public_relative_path": "tests/test_compiler_trace_feasibility.py",
       "source_relative_path": "tests/test_compiler_trace_feasibility.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "2c683e07acb1db57a21e15eb31ad66db93fbf6600fb2c09ac945d25293de24b8",
         "size": 12904
       },
       "public_copy": {
-        "sha256": "2c683e07acb1db57a21e15eb31ad66db93fbf6600fb2c09ac945d25293de24b8",
-        "size": 12904
+        "sha256": "8b1ae2f7a4bbb871838089827ffff8c16246d1f1172e0a4e2b27af7fecdadbe6",
+        "size": 12914
       },
       "public_relative_path": "tests/test_compiler_transport.py",
       "source_relative_path": "tests/test_compiler_transport.py"
@@ -3552,27 +3552,27 @@
       "source_relative_path": "tests/test_elf32.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "992867fbe2a0f516db2fd7f08c262a9ef838b979437d3b63eab2b870affb2ba0",
         "size": 19962
       },
       "public_copy": {
-        "sha256": "992867fbe2a0f516db2fd7f08c262a9ef838b979437d3b63eab2b870affb2ba0",
-        "size": 19962
+        "sha256": "d0d86cdbcb70bba134e3baf4adc761e8317e38eeb4edb265563418d253870625",
+        "size": 19972
       },
       "public_relative_path": "tests/test_extract_overlay.py",
       "source_relative_path": "tests/test_extract_overlay.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "2203e86e12f48316fc93d1b1eab4111c06a81c3f5c23d4b8b84e73f5f32d5607",
         "size": 19021
       },
       "public_copy": {
-        "sha256": "2203e86e12f48316fc93d1b1eab4111c06a81c3f5c23d4b8b84e73f5f32d5607",
-        "size": 19021
+        "sha256": "50aaf87629f1ccbebccffc009a14fe0c108aa41ef74c70452a5fa406c71975bb",
+        "size": 19031
       },
       "public_relative_path": "tests/test_gcc_versions.py",
       "source_relative_path": "tests/test_gcc_versions.py"
@@ -3591,27 +3591,27 @@
       "source_relative_path": "tests/test_inspect_input.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "f5cd391a86b7319f385af59a9d5df135628b996f62ce1d6afb7bd51485dddfbe",
         "size": 24198
       },
       "public_copy": {
-        "sha256": "f5cd391a86b7319f385af59a9d5df135628b996f62ce1d6afb7bd51485dddfbe",
-        "size": 24198
+        "sha256": "758e263e0196be5a2afe0c089696611178ece249bc93524af025033bd1b31a4c",
+        "size": 24208
       },
       "public_relative_path": "tests/test_language_modes.py",
       "source_relative_path": "tests/test_language_modes.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "b3eab91e8cc86f186b22cd24cfb39abc0d20682fdde7ffa597617f581b2b97a8",
         "size": 17000
       },
       "public_copy": {
-        "sha256": "b3eab91e8cc86f186b22cd24cfb39abc0d20682fdde7ffa597617f581b2b97a8",
-        "size": 17000
+        "sha256": "aa304e5fa4b74f73befb9347a65dd304e6695f311ab43c5cfe20533751b8fa25",
+        "size": 17010
       },
       "public_relative_path": "tests/test_linker_isolation.py",
       "source_relative_path": "tests/test_linker_isolation.py"
@@ -3695,14 +3695,14 @@
       "source_relative_path": "tests/test_recover_overlay_set.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "02e1df2f387b1e36bf28f7d57dea0bf63fa6dd15cd9ccaef48ce9cfbff038ba0",
         "size": 19701
       },
       "public_copy": {
-        "sha256": "02e1df2f387b1e36bf28f7d57dea0bf63fa6dd15cd9ccaef48ce9cfbff038ba0",
-        "size": 19701
+        "sha256": "e6b380373d446a561c4237b71963b72967f1346f5af42658ef620c4c18be3ab5",
+        "size": 19711
       },
       "public_relative_path": "tests/test_source_hypotheses.py",
       "source_relative_path": "tests/test_source_hypotheses.py"
@@ -3721,14 +3721,14 @@
       "source_relative_path": "tests/test_supplemental_modules.py"
     },
     {
-      "adapted": false,
+      "adapted": true,
       "historical_source": {
         "sha256": "4c29e0762044d1a9aeecbdac638f1266f2d95b4f7646f87f54c5ead6c0962809",
         "size": 23313
       },
       "public_copy": {
-        "sha256": "4c29e0762044d1a9aeecbdac638f1266f2d95b4f7646f87f54c5ead6c0962809",
-        "size": 23313
+        "sha256": "7eefaf446b3539dabf09207d0f6e9740044484cb1c749f4a0197e781f48ebc75",
+        "size": 23323
       },
       "public_relative_path": "tests/test_synthetic_link.py",
       "source_relative_path": "tests/test_synthetic_link.py"

@@ -85,7 +85,7 @@ class IsolationRunnerTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.path = self.root / "config/isolation.json"
         self.report_path = self.root / "evidence/report.json"
         self.source = self.write("bench/fixture.c", b"/* Invented SNC fixture. */\n")

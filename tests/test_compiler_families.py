@@ -162,7 +162,7 @@ class FamilyRunnerTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.profiles_path = self.root / "profiles.json"
         self.report_path = self.root / "evidence/report.json"
         self.source = self.write("bench/original.c", b"/* Invented header-free source fixture. */\n")
@@ -434,7 +434,7 @@ class NativeGccStagingTests(unittest.TestCase):
     def setUp(self):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
-        self.root = Path(temporary.name)
+        self.root = Path(temporary.name).resolve()
         self.source = self.root / "original_fixture.c"
         self.source_bytes = b"/* Invented staging fixture. */\nint f(void) { return 1; }\n"
         self.source.write_bytes(self.source_bytes)
