@@ -1,0 +1,135 @@
+{
+  "declared_trials": 2,
+  "decoder": {
+    "linux_path": "/usr/bin/mips-linux-gnu-objdump",
+    "sha256": "45f721d93a005f1ab4c25ebaf4488589e0c308946c3a5ac0374e6fd663372110",
+    "size": 489272
+  },
+  "elf_parser": {
+    "relative_path": "scripts/elf32.py",
+    "sha256": "766f16f86736ed0a04eb6c1ed439bd8aa96d2aab0b0c99e49055934e2fd45833",
+    "size": 5614
+  },
+  "families": {
+    "relative_path": "config/compiler-families.json",
+    "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab",
+    "size": 46770
+  },
+  "linking": false,
+  "pipeline": {
+    "relative_path": "scripts/bench_compiler_families.py",
+    "sha256": "d91b2e3b77f627527997ca50922d069afd9d1b0dff5e0b26ae230831894b8510",
+    "size": 15624
+  },
+  "pipeline_dependencies": [
+    {
+      "relative_path": "scripts/bench_compiler.py",
+      "sha256": "ab6b3c441c762180f3e0269cc4ea07c4d5e3c4801136907cc93ac1495db94d5c",
+      "size": 16064
+    },
+    {
+      "relative_path": "scripts/prepare_reference.py",
+      "sha256": "1d28d5f6edb44ac76bab7efe519fb29e14bc9bfbb4da5688ade6d81e8323e607",
+      "size": 13453
+    }
+  ],
+  "preserved_parked_inputs": [
+    {
+      "relative_path": "config/assembly-manifest.json",
+      "sha256": "391290964bfc33eb4713fe83460d71b885b34810f360d7db84799e48ce0da37a",
+      "size": 4007
+    },
+    {
+      "relative_path": "bench/archive_key_initializer.cpp",
+      "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3",
+      "size": 1806
+    },
+    {
+      "relative_path": "bench/archive_key_grouped.cpp",
+      "sha256": "e1e8671b6a465df6b539a7d6d27f334b64865bc1ed15e6edf34223bdef865cbd",
+      "size": 1377
+    },
+    {
+      "relative_path": "bench/archive_key_pointer.cpp",
+      "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373",
+      "size": 1391
+    },
+    {
+      "relative_path": "bench/archive_key_field_references.cpp",
+      "sha256": "20c14d1b6e848a6de1ebd3505584aa5850eaaaa34766e2378ebbdb78a4bc4c4b",
+      "size": 1304
+    },
+    {
+      "relative_path": "asm/nonmatching/archive_key_initialize.s",
+      "sha256": "ad4d4ea2fd5873df111ad552517035fcae3d5aab4af5b4fbe54cdae42db68058",
+      "size": 1026
+    }
+  ],
+  "profiles": [
+    {
+      "base_profile_id": "mwccpsp_3_0_1_219",
+      "common_flags": [
+        "-nostdinc",
+        "-lang",
+        "c++",
+        "-c"
+      ],
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_219/mwccpsp.exe",
+        "sha256": "828f9b30b3ae33c7a0202c2baf48aab49884c60e48c5b3daa2436bc3237368df",
+        "size": 2079232
+      },
+      "id": "mw219_cpp_O2",
+      "optimization_flags": [
+        "-O2"
+      ]
+    },
+    {
+      "base_profile_id": "psp_gcc_1_7_1",
+      "common_flags": [
+        "-quiet",
+        "-nostdinc",
+        "-G",
+        "0",
+        "-march=allegrex",
+        "-mtune=allegrex",
+        "-mel",
+        "-mabi=eabi"
+      ],
+      "compiler": {
+        "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/cc1plus",
+        "sha256": "8011b6481bb229a6ece67d310608b54faa201200d4f47a2fc01adeefbb82205f",
+        "size": 3144847
+      },
+      "id": "gcc171_cpp_O2",
+      "optimization_flags": [
+        "-O2"
+      ]
+    },
+    {
+      "base_profile_id": "psp_snc_1_2_7503",
+      "common_flags": [
+        "-c",
+        "-G0"
+      ],
+      "compiler": {
+        "relative_path": "toolchains/pspsnc_1.2.7503.0/pspsnc.exe",
+        "sha256": "b02e70f0319f1309171deeac730e6b821a0a91afb536e65ee61e2a85962621c2",
+        "size": 204800
+      },
+      "id": "snc_cpp_O2",
+      "optimization_flags": [
+        "-O2"
+      ]
+    }
+  ],
+  "runtime_execution": false,
+  "schema_version": 1,
+  "scope": "One invented natural C++ static polymorphic object; fixed existing familyO2 profiles; no original targets, flagsweep or toolchain lock",
+  "source": {
+    "relative_path": "bench/cpp_static_producer.cpp",
+    "sha256": "fb88cb5c8f7be2b0f7a4cb83ac994789c3f88e3a2b49726e81d476a437426423",
+    "size": 1699
+  },
+  "source_match_credit": false
+}

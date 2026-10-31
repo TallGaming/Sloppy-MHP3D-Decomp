@@ -1,0 +1,73 @@
+{
+  "archive": {
+    "relative_path": "toolchains/archives/minpspw_0.10.0-1ubuntu0_amd64.deb",
+    "sha256": "0caefe824ace40687032c492acbcc6e894c5ed2acb881d20cab7294fea134055",
+    "size": 80695848
+  },
+  "binary_patched": false,
+  "c_frontend": {
+    "relative_path": "toolchains/minpsp-0.10.0-amd64/opt/pspsdk/libexec/gcc/psp/4.3.5/cc1",
+    "sha256": "e29857596843952300e21f45728f5193189cd982badc824edb323ac89bd7de42",
+    "size": 6102752
+  },
+  "expected_version": "4.3.5",
+  "frontend": {
+    "relative_path": "toolchains/minpsp-0.10.0-amd64/opt/pspsdk/libexec/gcc/psp/4.3.5/cc1plus",
+    "sha256": "66324e6459dd5098606480fc5a442dd02afadbdba52a94d8372609a952c5baf3",
+    "size": 6745856
+  },
+  "help_invocations": [
+    [
+      "--version"
+    ],
+    [
+      "--help=target"
+    ]
+  ],
+  "help_timeout_seconds": 20,
+  "host_runtime": [
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "bda779ea9e9ad234f60315477d7cfd0bdde861cd8ddd9df8cdaf62f18c4cec14",
+      "size": 254864
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "85e64f97e348786a8fb4d9f3d52fec289e2fb86bba20f0731dfe61990525e0f7",
+      "size": 2190608
+    }
+  ],
+  "private_soname_files": "Exact bytes of official UbuntuMaverick legacy libraries whose internalSONAMEs match; no links to modern alternatives",
+  "private_support_libraries": [
+    {
+      "relative_path": "toolchains/minpsp-0.10.0-amd64/runtime/libgmp.so.3.5.2",
+      "sha256": "f9144a4924e1ba0f16477769447a8d4b56a060e8353378cc11bced599fa3c27f",
+      "size": 393088
+    },
+    {
+      "relative_path": "toolchains/minpsp-0.10.0-amd64/runtime/libgmp.so.3",
+      "sha256": "f9144a4924e1ba0f16477769447a8d4b56a060e8353378cc11bced599fa3c27f",
+      "size": 393088
+    },
+    {
+      "relative_path": "toolchains/minpsp-0.10.0-amd64/runtime/libmpfr.so.4.0.0",
+      "sha256": "54f3a045f2ebe74649bf4403a287a52722bbba139198674fe5a6597846aaa4ee",
+      "size": 352600
+    },
+    {
+      "relative_path": "toolchains/minpsp-0.10.0-amd64/runtime/libmpfr.so.4",
+      "sha256": "54f3a045f2ebe74649bf4403a287a52722bbba139198674fe5a6597846aaa4ee",
+      "size": 352600
+    }
+  ],
+  "publisher_release": "Minimalist PSPSDK0.10.0 AMD64 Debian archive",
+  "runtime_environment": {
+    "LC_ALL": "C",
+    "LD_LIBRARY_PATH": "<project-root>/toolchains/minpsp-0.10.0-amd64/runtime"
+  },
+  "schema_version": 1,
+  "source_compilation_in_help": false,
+  "source_match_credit": false,
+  "status": "investigation_candidate_not_historical_lock",
+  "system_packages_installed": false
+}

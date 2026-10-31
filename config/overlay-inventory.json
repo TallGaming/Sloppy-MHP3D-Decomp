@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_inventory",
+  "scope": "all original PSP archive entry prefixes; known named-overlay header inventory only",
+  "reference_lock": {
+    "relative_path": "config/reference.json",
+    "size": 1553,
+    "sha256": "1fcec4f311797665098137db0c3257a1c6eab77730bec05db6e73f4b513c94a6"
+  },
+  "pilot_lock": {
+    "relative_path": "config/overlay-pilot.json",
+    "size": 1520,
+    "sha256": "1f972b87c2d5a0187dff70b1b0494592f22f04a29d6e529ef9fde209a03eb7ab"
+  },
+  "maximum_prefix_bytes": 64,
+  "short_unaligned_policy": "read exact prefix length; decode only complete words, preserve raw tail",
+  "expected_named_descriptors": 355,
+  "full_payload_recovery": false,
+  "interpret_final_address_words": false
+}

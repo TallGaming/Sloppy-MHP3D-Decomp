@@ -1,0 +1,21 @@
+{
+  "status": "candidate_only_not_locked_for_game_builds",
+  "compiler": {
+    "id": "mwccpsp_3.0.1_219",
+    "relative_path": "toolchains/mwccpsp_3.0.1_219/mwccpsp.exe",
+    "sha256": "828f9b30b3ae33c7a0202c2baf48aab49884c60e48c5b3daa2436bc3237368df",
+    "version_output": "Metrowerks C/C++ Compiler for MIPS/PSP; Version 3.0.1 build 219; Runtime Built: Aug 24 2006 03:56:49",
+    "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_219.tar.gz",
+    "archive_sha256": "81a2a8664d779901f6fa2f298b663b4b0feeb1d7f6613fd14531f51e66926d78"
+  },
+  "runner": {
+    "id": "wibo-1.2.0-x86_64",
+    "relative_path": "toolchains/wibo-1.2.0/wibo",
+    "sha256": "13f86a2d618f0dbe67179d349625345eabf9b46450295cb4c904e49f6aff85af",
+    "url": "https://github.com/decompals/wibo/releases/download/1.2.0/wibo-x86_64",
+    "environment": "WSL Ubuntu"
+  },
+  "native_windows_invocation": "Do not use: compile opened FLEXlm License Finder and produced no object; process was closed.",
+  "successful_smoke_command": "wsl -d Ubuntu -- bash -lc 'cd <project-root> && timeout 20s toolchains/wibo-1.2.0/wibo toolchains/mwccpsp_3.0.1_219/mwccpsp.exe -nostdinc -c -O4 -o build/bench-initial/leaf-219-O4.o bench/leaf_probes.c'",
+  "note": "The smoke command proves object generation only. Optimization flags and the exact original build are not selected. Initial identification benches may compare candidate project-wide configurations; per-function flag changes are forbidden."
+}

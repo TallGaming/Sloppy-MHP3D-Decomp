@@ -1,0 +1,105 @@
+{
+  "scope": "Invented naming only; canonical names bind known signature categories, not game behavior",
+  "fixture": {
+    "relative_path": "bench/language_mode_naming.c",
+    "size": 2608,
+    "sha256": "398818f95f948bcf4e40271329a96c93dd54a89f84af0f88aea0920039e36916"
+  },
+  "compiler_families": {
+    "relative_path": "config/compiler-families.json",
+    "size": 46770,
+    "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab"
+  },
+  "probe_manifest": {
+    "relative_path": "config/compiler-probes.json",
+    "size": 8224,
+    "sha256": "2a3a7783a11704c870311470cf851434ec1e0a660af29787db48178b2c58ffbc"
+  },
+  "compiler_profile_id": "mwccpsp_3_0_1_219",
+  "optimization": [
+    "-O2"
+  ],
+  "modes": [
+    {
+      "id": "c",
+      "language": "c"
+    },
+    {
+      "id": "cpp",
+      "language": "c++"
+    }
+  ],
+  "naming_rule": "C exact synthetic name; C++ exact synthetic name followed by __ and its observed suffix; transfer suffix only to paired canonical name",
+  "pairs": [
+    {
+      "canonical_name": "probe_0883C4F8",
+      "fixture_name": "naming_fixture_00",
+      "signature_category": "int(const u8*)"
+    },
+    {
+      "canonical_name": "probe_0883C508",
+      "fixture_name": "naming_fixture_01",
+      "signature_category": "void(u8*)"
+    },
+    {
+      "canonical_name": "probe_08826448",
+      "fixture_name": "naming_fixture_02",
+      "signature_category": "const u8*(const u8*,u8*)"
+    },
+    {
+      "canonical_name": "probe_0885691C",
+      "fixture_name": "naming_fixture_03",
+      "signature_category": "void(ProbeRecord*)"
+    },
+    {
+      "canonical_name": "probe_0885697C",
+      "fixture_name": "naming_fixture_04",
+      "signature_category": "void(ProbeRecord*)"
+    },
+    {
+      "canonical_name": "probe_08856A14",
+      "fixture_name": "naming_fixture_05",
+      "signature_category": "u32(void)"
+    },
+    {
+      "canonical_name": "probe_0885BBFC",
+      "fixture_name": "naming_fixture_06",
+      "signature_category": "u32(void*,u32)"
+    },
+    {
+      "canonical_name": "probe_08860C9C",
+      "fixture_name": "naming_fixture_07",
+      "signature_category": "u32(const ProbeByteRecord*)"
+    },
+    {
+      "canonical_name": "probe_08830550",
+      "fixture_name": "naming_fixture_08",
+      "signature_category": "int(const s8*)"
+    },
+    {
+      "canonical_name": "probe_08830654",
+      "fixture_name": "naming_fixture_09",
+      "signature_category": "u32(const ProbeNode*)"
+    },
+    {
+      "canonical_name": "probe_0882DA68",
+      "fixture_name": "naming_fixture_10",
+      "signature_category": "u32(void*,const u16*)"
+    },
+    {
+      "canonical_name": "probe_0883E944",
+      "fixture_name": "naming_fixture_11",
+      "signature_category": "u32(const ProbeDivisionRecord*,int)"
+    },
+    {
+      "canonical_name": "probe_08862434",
+      "fixture_name": "naming_fixture_12",
+      "signature_category": "int(void*,u32,u32)"
+    },
+    {
+      "canonical_name": "probe_0886A58C",
+      "fixture_name": "naming_fixture_13",
+      "signature_category": "u32(const ProbeBitRecord*)"
+    }
+  ]
+}

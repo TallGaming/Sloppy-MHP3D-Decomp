@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "invented_fixture_only_not_game_toolchain_lock",
+  "source": {
+    "relative_path": "bench/direct_call_fixture.c",
+    "size": 421,
+    "sha256": "71d1ec7b4edb1e4713284b96d6b1cb1766c871a35b880b670432e0194d71dc0d"
+  },
+  "candidate_config_sha256": "9ba0d75472c7a1ceb45ffdbc46c50d3ffa119c3315be0e93c2f9f8ada4099147",
+  "flags": [
+    "-nostdinc",
+    "-lang",
+    "c",
+    "-c",
+    "-O2"
+  ],
+  "function_name": "fixture_call",
+  "load_address": 142671872,
+  "symbols": {
+    "fixture_external": 142868480
+  },
+  "expected_calls": [
+    {
+      "offset": 8,
+      "symbol": "fixture_external",
+      "addend": 0
+    }
+  ],
+  "expected_resolved_word": 237043712
+}

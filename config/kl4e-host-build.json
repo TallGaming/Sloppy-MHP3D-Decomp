@@ -1,0 +1,54 @@
+{
+  "built_program_executed": false,
+  "declared_trials": 2,
+  "environment": {
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin"
+  },
+  "game_compiler_flags_changed": false,
+  "gcc_arguments": [
+    "-O2",
+    "-std=c99",
+    "-Wall",
+    "-Wextra",
+    "kl4e_guarded.c",
+    "kl4e.c",
+    "-Wl,--no-undefined",
+    "-o",
+    "kl4e_guarded"
+  ],
+  "host_runtime": {
+    "relative_path": "evidence/bucket-03ad/helper-host-runtime.json",
+    "sha256": "d8aa6555675945086098406ff348b0c8e99f8c65c8422a2e1f16737426b67c98",
+    "size": 1210
+  },
+  "host_tools": {
+    "relative_path": "evidence/bucket-03ah/host-build-tools.json",
+    "sha256": "069c50542b39c78b340e4f7eb7a6c36a3c118ca82c0fabe3c10c17934dc83311",
+    "size": 3487
+  },
+  "readelf": {
+    "linux_path": "/usr/bin/x86_64-linux-gnu-readelf",
+    "sha256": "c857339616bbbfa5eba32733e22365048903fbaf6ed2126b897dd138bcb741fc",
+    "size": 818312
+  },
+  "schema_version": 1,
+  "sources": [
+    {
+      "relative_path": "tools/host/kl4e_guarded.c",
+      "sha256": "54924c9fb5dc705bc3b8147d6132c36fc18e67324261e73deac467932a1ed6ae",
+      "size": 11209
+    },
+    {
+      "relative_path": "toolchains/pspdecrypt/kl4e.c",
+      "sha256": "117befc155807a632120fbf743188a5b5ee9f924246042a67e2ea82f104af641",
+      "size": 14119
+    }
+  ],
+  "static_reader": {
+    "relative_path": "evidence/bucket-03af/read_psp_copy_loader_metadata.py",
+    "sha256": "dabefc096a5f5bf5fe35a4a90d24451ec052a0fc4205d17f0a2b0e52922f4826",
+    "size": 14102
+  },
+  "timeout_seconds": 60
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_cpp_target_scoring",
+  "scope": "fixed MW219 O2 C-versus-C++ complete fourteen-probe investigation; no toolchain lock or game match credit",
+  "family_profiles": {
+    "relative_path": "config/compiler-families.json",
+    "size": 46770,
+    "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab"
+  },
+  "source": {
+    "relative_path": "bench/compiler_probes.c",
+    "size": 4413,
+    "sha256": "d5d588c184c7c95a86bb3772e760f9251d33e3e4aabf92dfc0449c6ddc7c7a95"
+  },
+  "probe_manifest": {
+    "relative_path": "config/compiler-probes.json",
+    "size": 8224,
+    "sha256": "2a3a7783a11704c870311470cf851434ec1e0a660af29787db48178b2c58ffbc"
+  },
+  "reference_lock": {
+    "relative_path": "config/reference.json",
+    "size": 1553,
+    "sha256": "1fcec4f311797665098137db0c3257a1c6eab77730bec05db6e73f4b513c94a6"
+  },
+  "naming_spec": {
+    "relative_path": "config/language-naming-fixture.json",
+    "size": 3197,
+    "sha256": "a28f748dccff244605bef825faa56acaee22f33f60fddb0158c2758949222f75"
+  },
+  "naming_source": {
+    "relative_path": "bench/language_mode_naming.c",
+    "size": 2608,
+    "sha256": "398818f95f948bcf4e40271329a96c93dd54a89f84af0f88aea0920039e36916"
+  },
+  "naming_evidence": {
+    "relative_path": "evidence/bucket-03h/naming-evidence.json",
+    "size": 9360,
+    "sha256": "c44419eca3863b92d50b2053b40aaae3249ae08c7ed84f5774c68e312dc3b7ba"
+  },
+  "naming_objects": [
+    {
+      "relative_path": "build/language-naming-6c2x4mnd/c.o",
+      "size": 4200,
+      "sha256": "4b661828ab5e2a2c3e3adc5d760d69ffdf7bf47de7d3254bceac2360f0abef15"
+    },
+    {
+      "relative_path": "build/language-naming-6c2x4mnd/cpp.o",
+      "size": 4552,
+      "sha256": "35fff2b05623e88398afa81e4a382a05dd813a1d9ea3ad4989348d6087bbff34"
+    }
+  ],
+  "compiler_profile_id": "mwccpsp_3_0_1_219",
+  "optimization": [
+    "-O2"
+  ],
+  "declared_trials": 2,
+  "probe_count": 14,
+  "no_cpp_target_scores_observed": true,
+  "modes": [
+    {
+      "id": "c",
+      "common_flags": [
+        "-nostdinc",
+        "-lang",
+        "c",
+        "-c"
+      ],
+      "symbol_map": {
+        "probe_0883C4F8": "probe_0883C4F8",
+        "probe_0883C508": "probe_0883C508",
+        "probe_08826448": "probe_08826448",
+        "probe_0885691C": "probe_0885691C",
+        "probe_0885697C": "probe_0885697C",
+        "probe_08856A14": "probe_08856A14",
+        "probe_0885BBFC": "probe_0885BBFC",
+        "probe_08860C9C": "probe_08860C9C",
+        "probe_08830550": "probe_08830550",
+        "probe_08830654": "probe_08830654",
+        "probe_0882DA68": "probe_0882DA68",
+        "probe_0883E944": "probe_0883E944",
+        "probe_08862434": "probe_08862434",
+        "probe_0886A58C": "probe_0886A58C"
+      }
+    },
+    {
+      "id": "cpp",
+      "common_flags": [
+        "-nostdinc",
+        "-lang",
+        "c++",
+        "-c"
+      ],
+      "symbol_map": {
+        "probe_0883C4F8": "probe_0883C4F8__FPCUc",
+        "probe_0883C508": "probe_0883C508__FPUc",
+        "probe_08826448": "probe_08826448__FPCUcPUc",
+        "probe_0885691C": "probe_0885691C__FP11ProbeRecord",
+        "probe_0885697C": "probe_0885697C__FP11ProbeRecord",
+        "probe_08856A14": "probe_08856A14__Fv",
+        "probe_0885BBFC": "probe_0885BBFC__FPvUi",
+        "probe_08860C9C": "probe_08860C9C__FPC15ProbeByteRecord",
+        "probe_08830550": "probe_08830550__FPCSc",
+        "probe_08830654": "probe_08830654__FPC9ProbeNode",
+        "probe_0882DA68": "probe_0882DA68__FPvPCUs",
+        "probe_0883E944": "probe_0883E944__FPC19ProbeDivisionRecordi",
+        "probe_08862434": "probe_08862434__FPvUiUi",
+        "probe_0886A58C": "probe_0886A58C__FPC14ProbeBitRecord"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_source_compilation",
+  "scope": "three readable archive source forms; actualcomplete68Btarget; no matchcredit",
+  "archive_profile": {
+    "relative_path": "config/archive-key-experiment.json",
+    "size": 1902,
+    "sha256": "30b5372dab0d1e2fb9dc0ec4436ca0e78af1922728c5a421499a66e2a4cc5188"
+  },
+  "historical_object": {
+    "relative_path": "build/mw-archive-versions-zvq4q_dh/mwccpsp_3.0.1_219.o",
+    "size": 768,
+    "sha256": "1d715acabd4cdec572d40c1905504881a396fa5e11296f1163533b30941d7796"
+  },
+  "common_flags": [
+    "-nostdinc",
+    "-lang",
+    "c++",
+    "-c"
+  ],
+  "optimization": [
+    "-O2"
+  ],
+  "object_symbol": "initialize_key__17ArchiveKeyContextFUi",
+  "field_offsets": {
+    "lower": 193852,
+    "upper": 193856
+  },
+  "defaults": {
+    "lower": 32653,
+    "upper": 9029
+  },
+  "declared_trials": 2,
+  "plain_source_budget": 3,
+  "forms": [
+    {
+      "id": "flat",
+      "attempt": 1,
+      "source": {
+        "relative_path": "bench/archive_key_initializer.cpp",
+        "size": 1806,
+        "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3"
+      }
+    },
+    {
+      "id": "grouped",
+      "attempt": 2,
+      "source": {
+        "relative_path": "bench/archive_key_grouped.cpp",
+        "size": 1377,
+        "sha256": "e1e8671b6a465df6b539a7d6d27f334b64865bc1ed15e6edf34223bdef865cbd"
+      }
+    },
+    {
+      "id": "pointer",
+      "attempt": 3,
+      "source": {
+        "relative_path": "bench/archive_key_pointer.cpp",
+        "size": 1391,
+        "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373"
+      }
+    }
+  ]
+}

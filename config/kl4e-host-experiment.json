@@ -1,0 +1,74 @@
+{
+  "actual_inputs": [
+    {
+      "relative_path": "build/opnssmp-tag-experiment-65cqzh4b/opnssmp/helper-output.bin",
+      "sha256": "baa08abb7d5aef2fff636f0eecfd01f49a67f1fe887d6a55e1f14cc3a307dfe5",
+      "size": 2926
+    },
+    {
+      "relative_path": "build/opnssmp-tag-experiment-48guzbtw/opnssmp/helper-output.bin",
+      "sha256": "baa08abb7d5aef2fff636f0eecfd01f49a67f1fe887d6a55e1f14cc3a307dfe5",
+      "size": 2926
+    }
+  ],
+  "actual_reports": [
+    {
+      "relative_path": "evidence/bucket-03ah/experiment-trial-1.json",
+      "sha256": "cbb01166e5f108a361beaeaf85c52346a1e9f221e982539124a8fd17a2148e5c",
+      "size": 290472
+    },
+    {
+      "relative_path": "evidence/bucket-03ah/experiment-trial-2.json",
+      "sha256": "ff2d1645b7468992aa339458d7f19a454ed2d3d960a2ae5795d4a11eaee40f01",
+      "size": 290472
+    }
+  ],
+  "build_driver": {
+    "relative_path": "evidence/bucket-03ai/build_kl4e_host.py",
+    "sha256": "07c7fcc44d3e0f1bc31dce5e6d0f7d76763a7ae59b20c577072122b463f3d8ce",
+    "size": 10168
+  },
+  "build_profile": {
+    "relative_path": "config/kl4e-host-build.json",
+    "sha256": "ffa9d26fe6ba0f3769eafbbe1d373bd649ec74c242d7a2948ff5f77d58c7a17b",
+    "size": 1516
+  },
+  "build_reports": [
+    {
+      "relative_path": "evidence/bucket-03ai/build-trial-1.json",
+      "sha256": "dfc3cfecffbc008a84e4a40defd961486f6778e54e14c54a5719eb9a1df0cd40",
+      "size": 3000
+    },
+    {
+      "relative_path": "evidence/bucket-03ai/build-trial-2.json",
+      "sha256": "c1f6eca9ab19e185d8db0bbf91e5ea514d9d5af1d816a569507a5659bcde528e",
+      "size": 3000
+    }
+  ],
+  "expected_actual_size": 3550,
+  "game_compiler_flags_changed": false,
+  "helpers": [
+    {
+      "relative_path": "build/kl4e-host-build-2fxl2twz/kl4e_guarded",
+      "sha256": "20d9ee7162765e3af8797f7bd8d9dfbffed6cbb14e37a4380e9a8d17fc2d25c9",
+      "size": 21384
+    },
+    {
+      "relative_path": "build/kl4e-host-build-uxaz36az/kl4e_guarded",
+      "sha256": "20d9ee7162765e3af8797f7bd8d9dfbffed6cbb14e37a4380e9a8d17fc2d25c9",
+      "size": 21384
+    }
+  ],
+  "input_padding": false,
+  "maximum_file_bytes": 16777216,
+  "metadata_reader": {
+    "relative_path": "evidence/bucket-03af/read_psp_copy_loader_metadata.py",
+    "sha256": "dabefc096a5f5bf5fe35a4a90d24451ec052a0fc4205d17f0a2b0e52922f4826",
+    "size": 14102
+  },
+  "module_execution": false,
+  "schema_version": 1,
+  "signature_authentication_claimed": false,
+  "source_match_credit": false,
+  "timeout_seconds": 20
+}

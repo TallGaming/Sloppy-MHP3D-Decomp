@@ -1,0 +1,242 @@
+{
+  "baselines": [
+    {
+      "relative_path": "build/opnssmp-tool-build-qrdhoof6/baseline/pspdecrypt",
+      "sha256": "05d323b28b3ceed86a42d019767ddcdae3e40f85dacebe25a5fe7d86f2b02c98",
+      "size": 229584
+    },
+    {
+      "relative_path": "build/opnssmp-tool-build-e4v9kodi/baseline/pspdecrypt",
+      "sha256": "05d323b28b3ceed86a42d019767ddcdae3e40f85dacebe25a5fe7d86f2b02c98",
+      "size": 229584
+    }
+  ],
+  "build_artifacts": {
+    "relative_path": "evidence/bucket-03ah/built-artifact-inventory.json",
+    "sha256": "fff10a03b0a827318a24e128e54102e3e4bad1b51137ccad9fffa1838368f28f",
+    "size": 43538
+  },
+  "build_driver": {
+    "relative_path": "evidence/bucket-03ah/build_tag_capability.py",
+    "sha256": "d4b3ffed32714a5666b06e1fa9d021e294ca65c327bc3ce8709f0ec85a86dd0b",
+    "size": 12581
+  },
+  "build_observations": {
+    "relative_path": "evidence/bucket-03ah/host-build-observations.json",
+    "sha256": "6e1947cf48363932b11bc5ace65439090f4838c42bef5a475fa4a588d22d4342",
+    "size": 1345
+  },
+  "build_profile": {
+    "relative_path": "config/opnssmp-tag-build.json",
+    "sha256": "c57359c8347e344ea7ba4f8f1ccf1a7d831a320b7ebd024ab8d9062125396b34",
+    "size": 2900
+  },
+  "build_reports": [
+    {
+      "relative_path": "evidence/bucket-03ah/build-trial-1.json",
+      "sha256": "57f9770028a70342adf5ed18045004d32ca37a70572720630ce937a8ea6c240d",
+      "size": 2254
+    },
+    {
+      "relative_path": "evidence/bucket-03ah/build-trial-2.json",
+      "sha256": "ba114a8c0a9b201ee40c4e1830353d68a1f2328fb18683027c46801752679d79",
+      "size": 2254
+    }
+  ],
+  "candidate_id": "opnssmp",
+  "candidates": [
+    {
+      "relative_path": "build/opnssmp-tool-build-qrdhoof6/candidate/pspdecrypt",
+      "sha256": "9101c7dfc5c4667b5a400b947b94ec3e5b584b7a877cc41ab0983b0571528920",
+      "size": 229632
+    },
+    {
+      "relative_path": "build/opnssmp-tool-build-e4v9kodi/candidate/pspdecrypt",
+      "sha256": "9101c7dfc5c4667b5a400b947b94ec3e5b584b7a877cc41ab0983b0571528920",
+      "size": 229632
+    }
+  ],
+  "controls": [
+    {
+      "expected_interpretation_error": null,
+      "expected_status": "BOUNDED_ELF_CONTAINER_PREPARED",
+      "id": "main-eboot-control",
+      "prepared_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/control/prepared.elf",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/control/prepared.elf",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        }
+      ],
+      "raw_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/control/helper-output.bin",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/control/helper-output.bin",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        }
+      ]
+    },
+    {
+      "expected_interpretation_error": "ValueError: ELF segment file size exceeds memory size",
+      "expected_status": "HELPER_SUCCESS_OUTPUT_UNINTERPRETED",
+      "id": "archive-17",
+      "prepared_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-17/prepared.elf",
+          "sha256": "9d6c771861b8dec4ed74284809e6853d5e738f794a7c5d3052ac288a23dc71cb",
+          "size": 35232
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-17/prepared.elf",
+          "sha256": "9d6c771861b8dec4ed74284809e6853d5e738f794a7c5d3052ac288a23dc71cb",
+          "size": 35232
+        }
+      ],
+      "raw_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-17/helper-output.bin",
+          "sha256": "8366e2240642bb1d68ce6f84c87f36614c5ba1edd8b231bbf2992b861aaa4d0c",
+          "size": 20276
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-17/helper-output.bin",
+          "sha256": "8366e2240642bb1d68ce6f84c87f36614c5ba1edd8b231bbf2992b861aaa4d0c",
+          "size": 20276
+        }
+      ]
+    },
+    {
+      "expected_interpretation_error": "ValueError: ELF segment file size exceeds memory size",
+      "expected_status": "HELPER_SUCCESS_OUTPUT_UNINTERPRETED",
+      "id": "archive-18",
+      "prepared_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-18/prepared.elf",
+          "sha256": "7e49891b16f453c09433249953f9a1330555525e6a51201f63e4b3a6abbd3807",
+          "size": 1138
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-18/prepared.elf",
+          "sha256": "7e49891b16f453c09433249953f9a1330555525e6a51201f63e4b3a6abbd3807",
+          "size": 1138
+        }
+      ],
+      "raw_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-18/helper-output.bin",
+          "sha256": "3913b6048345ff76e5ec53a0546ee950a0433b2af8a2edfd9917fa4f23ce3713",
+          "size": 707
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-18/helper-output.bin",
+          "sha256": "3913b6048345ff76e5ec53a0546ee950a0433b2af8a2edfd9917fa4f23ce3713",
+          "size": 707
+        }
+      ]
+    },
+    {
+      "expected_interpretation_error": "ValueError: ELF segment file size exceeds memory size",
+      "expected_status": "HELPER_SUCCESS_OUTPUT_UNINTERPRETED",
+      "id": "archive-19",
+      "prepared_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-19/prepared.elf",
+          "sha256": "3eb3b7f83442370533647b46365be49463256931196610175119959729b4e466",
+          "size": 35232
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-19/prepared.elf",
+          "sha256": "3eb3b7f83442370533647b46365be49463256931196610175119959729b4e466",
+          "size": 35232
+        }
+      ],
+      "raw_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-19/helper-output.bin",
+          "sha256": "6d13505bcd9a1c0c9337edb81a2fbbe885a1cfbc35f2153a35ea7e5d5bdc4e06",
+          "size": 20275
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-19/helper-output.bin",
+          "sha256": "6d13505bcd9a1c0c9337edb81a2fbbe885a1cfbc35f2153a35ea7e5d5bdc4e06",
+          "size": 20275
+        }
+      ]
+    },
+    {
+      "expected_interpretation_error": "ValueError: ELF segment file size exceeds memory size",
+      "expected_status": "HELPER_SUCCESS_OUTPUT_UNINTERPRETED",
+      "id": "archive-20",
+      "prepared_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-20/prepared.elf",
+          "sha256": "129e8e7a5231a81ba919d751c2ff0b1f03f95996a27d766732bf4f5bf61085bc",
+          "size": 1138
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-20/prepared.elf",
+          "sha256": "129e8e7a5231a81ba919d751c2ff0b1f03f95996a27d766732bf4f5bf61085bc",
+          "size": 1138
+        }
+      ],
+      "raw_outputs": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-20/helper-output.bin",
+          "sha256": "bf01b70cef4fde463dc9f9cb241c92e47c90ba7eaecf84cf98b5b424c178e624",
+          "size": 706
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-20/helper-output.bin",
+          "sha256": "bf01b70cef4fde463dc9f9cb241c92e47c90ba7eaecf84cf98b5b424c178e624",
+          "size": 706
+        }
+      ]
+    }
+  ],
+  "declared_trials": 2,
+  "game_compiler_flags_changed": false,
+  "golden_reports": [
+    {
+      "relative_path": "evidence/bucket-03ad/preparation-trial-1.json",
+      "sha256": "60f6d7ec4a68f9e0e7856c6873e4bebbca8162b4bbe391b19061288e1a035517",
+      "size": 289755
+    },
+    {
+      "relative_path": "evidence/bucket-03ad/preparation-trial-2.json",
+      "sha256": "8ef61c9c85e67ec2869dce7f2724b3aac8a03d034095fc86b4838ab9c4bac40d",
+      "size": 289755
+    }
+  ],
+  "helper_invocations_per_trial": 6,
+  "module_execution": false,
+  "new_decompression_formats": false,
+  "prior_driver": {
+    "relative_path": "evidence/bucket-03ad/prepare_module_candidates.py",
+    "sha256": "75b928004528783e5c6ee3227b9ee5a9771a421b056f6d4322c204fc95fad162",
+    "size": 14310
+  },
+  "prior_profile": {
+    "relative_path": "config/module-static-preparation.json",
+    "sha256": "64e74c98f2560e6e0eb49d79976198850b1e748066cd4145243cab724f240784",
+    "size": 5078
+  },
+  "public_expected_type": 6,
+  "schema_version": 1,
+  "signature_authentication_claimed": false,
+  "source_match_credit": false,
+  "static_runtime_readelf": {
+    "relative_path": "evidence/bucket-03ah/candidate-static-readelf.txt",
+    "sha256": "23f4838c40c011f0a5d8c8f1905f027c54d1d82af8f7e637ca41c74b70a6b72d",
+    "size": 4728
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_recovery",
+  "scope": "complete stored bytes of exactly the frozen known PSP overlay set; no code rewrite",
+  "inventory_profile": {
+    "relative_path": "config/overlay-inventory.json",
+    "size": 772,
+    "sha256": "bddd4163726e3b303a05fb2b0fa725e3f3d2ba016657288c0c11f6c2e6cd796f"
+  },
+  "inventory_report": {
+    "relative_path": "evidence/bucket-03r/overlay-inventory-run-1.json",
+    "size": 3380121,
+    "sha256": "a7a3b1e7b88aefd342a4fdc4924200570496cd62abb241bd093165f5d383991f"
+  },
+  "expected_overlay_count": 355,
+  "maximum_payload_bytes": 2097152,
+  "maximum_raw_address_span_bytes": 128,
+  "output_parent_relative_path": "reference/uljm05800-v102/overlay-sets",
+  "declared_trials": 2,
+  "preserved_inputs": [
+    {
+      "relative_path": "scripts/inventory_overlays.py",
+      "size": 14869,
+      "sha256": "628643e527cdd88e5c266047e744534ce446713e97fdd37d041d6b48db13d24e"
+    },
+    {
+      "relative_path": "scripts/extract_overlay.py",
+      "size": 15943,
+      "sha256": "6f91572be1e5772129c39f17995c7d7b9f829df7133764f5816e6bb85c30c863"
+    },
+    {
+      "relative_path": "config/assembly-manifest.json",
+      "size": 4007,
+      "sha256": "391290964bfc33eb4713fe83460d71b885b34810f360d7db84799e48ce0da37a"
+    },
+    {
+      "relative_path": "bench/archive_key_initializer.cpp",
+      "size": 1806,
+      "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3"
+    },
+    {
+      "relative_path": "bench/archive_key_grouped.cpp",
+      "size": 1377,
+      "sha256": "e1e8671b6a465df6b539a7d6d27f334b64865bc1ed15e6edf34223bdef865cbd"
+    },
+    {
+      "relative_path": "bench/archive_key_pointer.cpp",
+      "size": 1391,
+      "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373"
+    },
+    {
+      "relative_path": "bench/archive_key_field_references.cpp",
+      "size": 1304,
+      "sha256": "20c14d1b6e848a6de1ebd3505584aa5850eaaaa34766e2378ebbdb78a4bc4c4b"
+    },
+    {
+      "relative_path": "asm/nonmatching/archive_key_initialize.s",
+      "size": 1026,
+      "sha256": "ad4d4ea2fd5873df111ad552517035fcae3d5aab4af5b4fbe54cdae42db68058"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "scope": "Bucket 2: exactly one original PSP overlay; not matching credit",
+  "reference_sha256": "20a3b77c76f3729843f4e945fe4f04085edd6f37aa6122399d296d7f2e9c3dd8",
+  "archive": {
+    "iso_path": "/PSP_GAME/USRDIR/DATA.BIN",
+    "lba": 55968,
+    "size": 1092495360,
+    "sha256": "cb1229171c2a7bcc11716a2cd5a2bb3c40a242f0d614bb88aa50cbedfb60426e"
+  },
+  "decode_table": {
+    "elf_offset": 1738492,
+    "elf_address": 144349768,
+    "size": 256,
+    "sha256": "442d20ebfcc0fbba34b20a28e20fbd72c8a8f330a3342b0122f9e405f4822cc2"
+  },
+  "directory": {
+    "size": 34816,
+    "sha256": "40ce4b67d82147fe526ab3c20aef0751ea69a22f886d854fa64597c9a63c84ea",
+    "decoded_sha256": "64c10d7e2fbba5a1a6ad860790396dac5d0e4fedd4fedfed83a609745cb92a1f",
+    "entry_count": 5955,
+    "exact_size_count": 1289
+  },
+  "overlay": {
+    "archive_index": 101,
+    "block": 268538,
+    "extent_size": 2048,
+    "encrypted": {
+      "size": 1280,
+      "sha256": "9a825ce43736d0869e67f9f56ea9ba3af4679fdd01748e806e11ce2bb2e982bb"
+    },
+    "decoded": {
+      "size": 1280,
+      "sha256": "6a918f7af824103cfe5df0c4fb8d793c430a273b166a8eaf5ce1e5cd66951abb"
+    },
+    "header": {
+      "id": 158,
+      "load_address": 163937408,
+      "code_size": 1160,
+      "data_size": 56,
+      "bss_size": 128,
+      "end_address": 163938688,
+      "entry_address": 163938688,
+      "name": "movie_task.ovl"
+    },
+    "descriptor_index": 337,
+    "program_header_index": 158,
+    "output_name": "movie_task.ovl.mwo"
+  }
+}

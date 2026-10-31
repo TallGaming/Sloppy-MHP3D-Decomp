@@ -1,0 +1,59 @@
+name: Compiler, linker, ABI or source-context help
+description: Share source-backed evidence or an invented reproducer for the current blockers.
+title: "[Compiler help] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please read docs/HELP_WANTED.md and docs/CURRENT_STATUS.md first.
+        We have zero credited matches and no locked original toolchain.
+        Do not attach game images, extracted game bytes/disassembly, keys,
+        proprietary SDK/compiler binaries, private logs or credentials.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Evidence area
+      options:
+        - Compiler or linker identity / metadata stage
+        - C++ ABI or translation-unit context
+        - Memory qualifiers / readable source explanation
+        - SDK or third-party signature provenance
+        - Invented reproducible experiment
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Specific claim and uncertainty
+      description: Explain what your evidence supports and what remains unknown. A banner or shared ABI is not exclusive producer attribution.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources and exact location
+      description: Link public documentation or source at a commit/version and identify the file, rule or passage. Explain any SDK/runtime distinction.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Invented reproducer and complete pipeline, if applicable
+      description: Give readable synthetic source, tool versions/hashes, fixed commands, stage boundaries, complete symbol extents/relocations, outputs and failed controls. No game inputs or tool binaries.
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to the current blockers
+      description: Explain how this helps the parked 68-byte initializer, 140-byte advance hypothesis, or original build provenance without per-function flag tuning.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Contribution boundaries
+      options:
+        - label: This issue contains no game image, extracted game bytes/disassembly, keys, proprietary tool binaries, secrets or personal data.
+          required: true
+        - label: I separated direct evidence, hypotheses and isolated diagnostic equality from full-game match credit.
+          required: true

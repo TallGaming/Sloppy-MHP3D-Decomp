@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_archive_candidate_compilation",
+  "scope": "one natural archive key initializer, fixed existing MW219 C++ O2; no game match credit",
+  "language_profile": {
+    "relative_path": "config/language-modes.json",
+    "size": 3848,
+    "sha256": "d3c8b6b71710f390b545fec44f1d262d66814c4cec3841dc69057166dfab0a57"
+  },
+  "source": {
+    "relative_path": "bench/archive_key_initializer.cpp",
+    "size": 1806,
+    "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3"
+  },
+  "target_manifest": {
+    "relative_path": "config/archive-key-probe.json",
+    "size": 883,
+    "sha256": "bcb2a3b159f2ce1f3d6fba2ff9f2d668dade818efab8d79bb4fe6656846bea84"
+  },
+  "source_hypothesis": {
+    "relative_path": "evidence/bucket-03i/source-hypothesis.json",
+    "size": 1129,
+    "sha256": "173a2461c2008ebc9b5c7f63585293095eb6f61f9aa7beb4b710fc0ee903a825"
+  },
+  "naming_source": {
+    "relative_path": "bench/archive_key_naming.cpp",
+    "size": 364,
+    "sha256": "ba25728588ef85085ccf3c51647f741c17bddbe147e6823e5a654546f7c937c2"
+  },
+  "naming_evidence": {
+    "relative_path": "evidence/bucket-03i/naming-evidence.json",
+    "size": 701,
+    "sha256": "7be69cc48816970a39de0c9880b1f7a94f5ef4dae1d74ee02babec720affd9d3"
+  },
+  "naming_object": {
+    "relative_path": "build/archive-key-naming-6_1zdb12/naming.o",
+    "size": 672,
+    "sha256": "d06c4baa5b3c3b49a0c8ed3013df07aea97ac6d093a541d8ab57b62d3ea41ab4"
+  },
+  "common_flags": [
+    "-nostdinc",
+    "-lang",
+    "c++",
+    "-c"
+  ],
+  "optimization": [
+    "-O2"
+  ],
+  "canonical_name": "archive_key_initialize",
+  "object_symbol": "initialize_key__17ArchiveKeyContextFUi",
+  "target_address": 143008572,
+  "target_size": 68,
+  "declared_trials": 2,
+  "source_attempts": 1,
+  "no_archive_candidate_compilation_observed": true
+}

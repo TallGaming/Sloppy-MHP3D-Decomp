@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "status": "investigation_only_not_locked",
+  "scope": "same fixed plain-C probes and whole-bench settings; no match credit",
+  "runner": {
+    "id": "wibo-1.2.0-x86_64",
+    "relative_path": "toolchains/wibo-1.2.0/wibo",
+    "sha256": "13f86a2d618f0dbe67179d349625345eabf9b46450295cb4c904e49f6aff85af",
+    "url": "https://github.com/decompals/wibo/releases/download/1.2.0/wibo-x86_64",
+    "environment": "WSL Ubuntu",
+    "size": 7256672
+  },
+  "common_flags": [
+    "-nostdinc",
+    "-lang",
+    "c",
+    "-c"
+  ],
+  "settings": [
+    {
+      "id": "default",
+      "flags": []
+    },
+    {
+      "id": "O0",
+      "flags": [
+        "-O0"
+      ]
+    },
+    {
+      "id": "O1",
+      "flags": [
+        "-O1"
+      ]
+    },
+    {
+      "id": "O2",
+      "flags": [
+        "-O2"
+      ]
+    },
+    {
+      "id": "O3",
+      "flags": [
+        "-O3"
+      ]
+    },
+    {
+      "id": "O4",
+      "flags": [
+        "-O4"
+      ]
+    },
+    {
+      "id": "O4-p",
+      "flags": [
+        "-O4,p"
+      ]
+    },
+    {
+      "id": "O4-s",
+      "flags": [
+        "-O4,s"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mwccpsp_3.0.1_121",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_121/mwccpsp.exe",
+        "size": 1999872,
+        "sha256": "4bbf242b00e53ad7e0f684dfdc6ea477212292b8560546fb43af52e8e4ac6573"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_121/LMGR326B.DLL",
+          "size": 306688,
+          "sha256": "bd9415ab11f4aef42c372e8547a8303b02464b59549745be597cf09e460737e8"
+        }
+      ],
+      "version": "Version 3.0.1 build 121; Runtime Built: Sep 16 2004 18:27:38",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_121.tar.gz",
+      "archive_sha256": "44836bb4d19fbe216b55fbd638420c000f7dd373c84493de0e732e85f81656af",
+      "help_sha256": "802a02d282f2a6941803554313a8bc0759ad9ee32e9b33e201b91db812a326c3",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_121-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_134",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_134/mwccpsp.exe",
+        "size": 2008576,
+        "sha256": "9e7b8027bddaca1aad67c058cb94e3eb00fd9867847adcbecc4249a17ec51521"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_134/LMGR326B.DLL",
+          "size": 306688,
+          "sha256": "bd9415ab11f4aef42c372e8547a8303b02464b59549745be597cf09e460737e8"
+        }
+      ],
+      "version": "Version 3.0.1 build 134; Runtime Built: Nov  9 2004 15:15:07",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_134.tar.gz",
+      "archive_sha256": "a4a00c2450ee2b6f7be29fc73470446994fcf2b1b1003b8ac34568f3358e1c99",
+      "help_sha256": "e8e5cd0e227b1a5a299d49b5b9110c5a6667df22e7576cdea60069f64be30a14",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_134-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_139",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_139/mwccpsp.exe",
+        "size": 2055168,
+        "sha256": "056e7c8c3aafa74a74c137fd981960b51191390f3008ac38466f4d9b6223c7b2"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_139/LMGR326B.DLL",
+          "size": 306688,
+          "sha256": "bd9415ab11f4aef42c372e8547a8303b02464b59549745be597cf09e460737e8"
+        }
+      ],
+      "version": "Version 3.0.1 build 139; Runtime Built: Dec 21 2004 22:09:23",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_139.tar.gz",
+      "archive_sha256": "932bae1cdd95df8e1c593af14c19c90c21ad8e2662d6cc5e537269543d8bdd8f",
+      "help_sha256": "9f526c44db72a9d3fad73dd20a11d1cccd1e23d26bf379baa13d91e16c940027",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_139-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_147",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_147/mwccpsp.exe",
+        "size": 2059776,
+        "sha256": "aa860a17a15d534f6238f6f5e81071e499f3af7c3f8bde5a3d3485d921edf82e"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_147/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 147; Runtime Built: Feb 22 2005 18:45:54",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_147.tar.gz",
+      "archive_sha256": "7b9c917d50f804617eb50897cb5b68e1f287f6f676f28078c04a9054b2e4586e",
+      "help_sha256": "409843f8347fb0317862d71fdfd0999b1d257fced79ca7b7c19c45de8a8da4a0",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_147-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_151",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_151/mwccpsp.exe",
+        "size": 2059776,
+        "sha256": "1a1544d59577ec58d536af922968ee22a051467746916c5ea98a80871f6565d7"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_151/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 151; Runtime Built: Mar 17 2005 14:53:36",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_151.tar.gz",
+      "archive_sha256": "168ee268ebd9a9dc756886c90b4fdd577b13b57ecad025c8b7d98acf47d3f76f",
+      "help_sha256": "31e85ce6a35df6082a5997c0ee890f41305a20c00c32b716ae8b75e23a46195b",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_151-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_180",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_180/mwccpsp.exe",
+        "size": 2076672,
+        "sha256": "54ab208544b35d1172a3c4e2a66e016c1e818933f13ae83b67472b1b2bc240eb"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_180/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 180; Runtime Built: Jun 15 2005 19:19:25",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_180.tar.gz",
+      "archive_sha256": "2d4ff76e4e5c9bd938dbc627e4219583d6119bc4af30548df43e06221ab7b32b",
+      "help_sha256": "42ad4222076c11070d419827cbeffdfe04fcf4fe46ecf855eabcec64658228f0",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_180-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_192",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_192/mwccpsp.exe",
+        "size": 2077184,
+        "sha256": "ff50e368ec7bd7651f5f0b3c17e3823d7ad5c410aece95b6f3b458d2b4fadd5f"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_192/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 192; Runtime Built: Aug 21 2005 23:59:04",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_192.tar.gz",
+      "archive_sha256": "e68e0a281f90e0c5a96cd04defe01eabfad4b5592807bba983495fa07c1d55b3",
+      "help_sha256": "3603ca26bb5524dd3f012141388da7df8b3ef441ced4de5c3d52a9459fd30a1e",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_192-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_201",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_201/mwccpsp.exe",
+        "size": 2077184,
+        "sha256": "fba25c0480aac7bfcc5a4564e22f8ed28c030fbc58387659e97297706fd63737"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_201/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 201; Runtime Built: Nov  1 2005 19:33:40",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_201.tar.gz",
+      "archive_sha256": "1bf4b06615f56e6ca5b78287e8fab5c7737f5cd5766d1df052829d737928dbc8",
+      "help_sha256": "58463edd63cf778548749b1fe5e22ebda5150233c3728205fad58af098fcb70d",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_201-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_205",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_205/mwccpsp.exe",
+        "size": 2077696,
+        "sha256": "3e5637e4a7e15b9fba4646ab87403e9f604faeb14098432f373abe50cc6870ba"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_205/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 205; Runtime Built: Dec 27 2005 06:57:05",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_205.tar.gz",
+      "archive_sha256": "ace61d4641fcdff55c08b7560c95915b20243f0f18023c3d4ce99fe37c5cdb00",
+      "help_sha256": "6c093ecae67c2c9b9c589c3d8233d52d876d071d2499593d68bdb01d54d04853",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_205-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_210",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_210/mwccpsp.exe",
+        "size": 2077696,
+        "sha256": "3518e5e5779b5bc42040ad8c3da6baa94318ae806c1737328529b13b495bb9d6"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_210/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 210; Runtime Built: Mar  8 2006 20:48:08",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_210.tar.gz",
+      "archive_sha256": "a8a0bf3a0ec3545f6578717516aad0f262a40dd1538a6e462b77efc29e79a969",
+      "help_sha256": "43d204233821b1a7e28c5c880be39ebec9e0b17cf700b9bfe58e556b0adba03d",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_210-help.txt"
+    },
+    {
+      "id": "mwccpsp_3.0.1_219",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_219/mwccpsp.exe",
+        "size": 2079232,
+        "sha256": "828f9b30b3ae33c7a0202c2baf48aab49884c60e48c5b3daa2436bc3237368df"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_219/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "version": "Version 3.0.1 build 219; Runtime Built: Aug 24 2006 03:56:49",
+      "archive_url": "https://github.com/decompme/compilers/releases/download/compilers/mwccpsp_3.0.1_219.tar.gz",
+      "archive_sha256": "81a2a8664d779901f6fa2f298b663b4b0feeb1d7f6613fd14531f51e66926d78",
+      "help_sha256": "539587cda84463e05efa58667977ee77a81ac8238f03b3ac0d09cf05be248ce6",
+      "help_evidence": "evidence/bucket-03/mwccpsp_3.0.1_219-help.txt"
+    }
+  ],
+  "source_sha256": "d5d588c184c7c95a86bb3772e760f9251d33e3e4aabf92dfc0449c6ddc7c7a95",
+  "manifest_sha256": "2a3a7783a11704c870311470cf851434ec1e0a660af29787db48178b2c58ffbc",
+  "source_metadata_url": "https://github.com/decompme/compilers/tree/c5f041cdc9610fb5213b7ae3c88cce02f554c4d3/platforms/psp",
+  "source_metadata_commit": "c5f041cdc9610fb5213b7ae3c88cce02f554c4d3"
+}

@@ -1,0 +1,100 @@
+{
+  "archive_draft_compiled": false,
+  "comparator": {
+    "relative_path": "scripts/bench_language_modes.py",
+    "sha256": "fa5b1c3b8a1138b5856bd525c44a609fe7d2d735713fb4da342a8ec7f203ccd2",
+    "size": 13999
+  },
+  "compilations_per_target_trial": 4,
+  "compiler_flags_changed": false,
+  "control_objects": [
+    {
+      "relative_path": "build/gcc435-consistent-xoa0qmy_/gcc171_cpp_O2-static_cpp/candidate.o",
+      "sha256": "a8848c362e49c88129ef5373529cfbe9c86c6233d220bcd6d27928c7de3017d9",
+      "size": 6312
+    },
+    {
+      "relative_path": "build/gcc435-consistent-xoa0qmy_/gcc435_cpp_O2_single_float_as-static_cpp/candidate.o",
+      "sha256": "890b3018129707bde119a706fc6540cd12d4dff683f32bf65aca6eee1f52e41d",
+      "size": 6056
+    }
+  ],
+  "control_source": {
+    "relative_path": "bench/cpp_static_producer.cpp",
+    "sha256": "fb88cb5c8f7be2b0f7a4cb83ac994789c3f88e3a2b49726e81d476a437426423",
+    "size": 1699
+  },
+  "declared_trials": 2,
+  "fixture_driver": {
+    "relative_path": "evidence/bucket-03aa/run_consistent_fixtures.py",
+    "sha256": "3d5129b5fbcf56112f67b05bd68037f09d8d95872fc48e025fd96079c43a8ce1",
+    "size": 8007
+  },
+  "fixture_profile": {
+    "relative_path": "config/gcc435-consistent-fixtures.json",
+    "sha256": "bf5908a7a78e0a885df72358ed5f137eb333d52c635c63493b8e7f25553ba838",
+    "size": 1840
+  },
+  "historical_toolchain_established": false,
+  "language": "C++",
+  "linking": false,
+  "manifest": {
+    "relative_path": "config/compiler-probes.json",
+    "sha256": "2a3a7783a11704c870311470cf851434ec1e0a660af29787db48178b2c58ffbc",
+    "size": 8224
+  },
+  "naming_compiles": 2,
+  "naming_source": {
+    "relative_path": "bench/language_mode_naming.c",
+    "sha256": "398818f95f948bcf4e40271329a96c93dd54a89f84af0f88aea0920039e36916",
+    "size": 2608
+  },
+  "naming_spec": {
+    "relative_path": "config/language-naming-fixture.json",
+    "sha256": "a28f748dccff244605bef825faa56acaee22f33f60fddb0158c2758949222f75",
+    "size": 3197
+  },
+  "optimization_flags": [
+    "-O2"
+  ],
+  "probe_comparator": {
+    "relative_path": "scripts/bench_compiler.py",
+    "sha256": "ab6b3c441c762180f3e0269cc4ea07c4d5e3c4801136907cc93ac1495db94d5c",
+    "size": 16064
+  },
+  "probe_count": 14,
+  "profiles": [
+    "gcc171_cpp_O2",
+    "gcc435_cpp_O2_single_float_as"
+  ],
+  "reference": {
+    "decryption_tag": "D91681F0",
+    "decryption_type": 6,
+    "helper_git_commit": "c156627db7634d395c380c0a9589130f603307fc",
+    "relative_path": "reference/uljm05800-v102/EBOOT.ELF",
+    "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+    "size": 2247320
+  },
+  "runtime_execution": false,
+  "schema_version": 1,
+  "scope": "Complete fixed14probe GNU C++ diagnostic, not game match progress or historical attribution",
+  "source": {
+    "relative_path": "bench/compiler_probes.c",
+    "sha256": "d5d588c184c7c95a86bb3772e760f9251d33e3e4aabf92dfc0449c6ddc7c7a95",
+    "size": 4413
+  },
+  "source_match_credit": false,
+  "source_revised": false,
+  "validated_fixture_reports": [
+    {
+      "relative_path": "evidence/bucket-03aa/fixture-trial-1.json",
+      "sha256": "3328a074c46aff62873c2e44dc702801d5c1434b196a59085b59d8dd6310b648",
+      "size": 166216
+    },
+    {
+      "relative_path": "evidence/bucket-03aa/fixture-trial-2.json",
+      "sha256": "725f408b56667dbf24d38c02521e059c540ebec183d67bcc63770bc218b30817",
+      "size": 166216
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "entry_va": 4198400,
+  "guest_cs": 7,
+  "historical_3m_result": "INCONCLUSIVE; unchanged",
+  "image_base": 4194304,
+  "markers": [
+    {
+      "file_offset": 1863976,
+      "identity": {
+        "sha256": "6379476a850654d6b543ff4d6b3e138b7429fdb289dad6531f47dc49f5de4292",
+        "size": 22
+      },
+      "label": "After IR Optimization",
+      "va": 6066984
+    },
+    {
+      "file_offset": 1893744,
+      "identity": {
+        "sha256": "ac1e623339ce22028c04ecfebff18f6f4e6ad82f008eedef932a199f67373b35",
+        "size": 33
+      },
+      "label": "After removecommonsubexpressions",
+      "va": 6096752
+    },
+    {
+      "file_offset": 1893849,
+      "identity": {
+        "sha256": "44888f5fc56981caf2fa39103b031ebdc7e4f7fe320edc48f29cbe47be1d8a4e",
+        "size": 32
+      },
+      "label": "After propagatecopyinstructions",
+      "va": 6096857
+    }
+  ],
+  "object_neutrality_tested": false,
+  "ordinary_help_identity": {
+    "sha256": "539587cda84463e05efa58667977ee77a81ac8238f03b3ac0d09cf05be248ce6",
+    "size": 31584
+  },
+  "schema_version": 1,
+  "scope": "Two fresh help-only transport trials; no source, object, game or optimizer hook",
+  "text": {
+    "file_offset": 1024,
+    "identity": {
+      "sha256": "11ebae9224311b84b66986f5804059204e41592afef1009b1093bcdfea27e550",
+      "size": 1702912
+    },
+    "va": 4198400
+  },
+  "timeout_seconds": 30,
+  "tools": [
+    {
+      "identity": {
+        "sha256": "828f9b30b3ae33c7a0202c2baf48aab49884c60e48c5b3daa2436bc3237368df",
+        "size": 2079232
+      },
+      "path": "toolchains/mwccpsp_3.0.1_219/mwccpsp.exe"
+    },
+    {
+      "identity": {
+        "sha256": "13f86a2d618f0dbe67179d349625345eabf9b46450295cb4c904e49f6aff85af",
+        "size": 7256672
+      },
+      "path": "toolchains/wibo-1.2.0/wibo"
+    },
+    {
+      "identity": {
+        "sha256": "e5272927fc1b40345748dfa4133ec2a50caeb5f209a44099dd2c48679911c59c",
+        "size": 10894536
+      },
+      "path": "/usr/bin/gdb"
+    }
+  ]
+}

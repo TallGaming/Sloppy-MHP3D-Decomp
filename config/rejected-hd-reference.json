@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "baseline_selected_by_user": false,
+  "status": "rejected_by_user",
+  "cleanliness_verified": false,
+  "selection_note": "Selection revoked: user says this version is not clean, instructed work to stop, and is looking for another image. The hashes below identify the rejected candidate only; there is no active baseline.",
+  "iso_filename": "Monster Hunter Portable 3rd HD ver.iso",
+  "size": 1323565056,
+  "sha256": "cec342ba025c36675ce0d9e5ff4a3df67094260a795131ee7ef5881f74917781",
+  "disc_id": "NPJB40001",
+  "title": "MONSTER HUNTER PORTABLE 3rd HD Ver.",
+  "executable": {
+    "iso_path": "/PSP_GAME/SYSDIR/EBOOT.BIN",
+    "size": 2274224,
+    "sha256": "79e25f3512d56e0f7bf5c48351d7d0d255269675ffc8811ac5599322bb66945e"
+  },
+  "inventory_evidence": "evidence/hd-ver-candidate.json"
+}

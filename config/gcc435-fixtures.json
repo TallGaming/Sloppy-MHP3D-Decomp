@@ -1,0 +1,74 @@
+{
+  "candidate_guard": {
+    "relative_path": "evidence/bucket-03z/check_candidate_help.py",
+    "sha256": "fc385f83f9cb3f6b89b0e029d548af7d4bc7762130712009a9eaa9a35563d065",
+    "size": 4743
+  },
+  "candidate_help": {
+    "relative_path": "evidence/bucket-03z/candidate-help.json",
+    "sha256": "180a9dc5e29c734a4bf3046bf6d0313e61b86605938d1ced340459db2704dd2b",
+    "size": 1436
+  },
+  "candidate_profile": {
+    "relative_path": "config/psp-gcc435-candidate.json",
+    "sha256": "78c15bdcec0a105fbc92698b7d81257f1bc990ca226fc985ceea9c9241cb22de",
+    "size": 2583
+  },
+  "capture_driver": {
+    "relative_path": "evidence/bucket-03y/capture_gnu_assembly.py",
+    "sha256": "043bf0c4caebc7b8c2d669afcae88f5ad4a7d2ba29f6769585829eb791f7a4b5",
+    "size": 11374
+  },
+  "compilations_per_trial": 4,
+  "declared_trials": 2,
+  "fixtures": [
+    {
+      "historical_old_object": {
+        "relative_path": "build/cpp-producer-d93lhtl0/gcc171_cpp_O2.o",
+        "sha256": "a8848c362e49c88129ef5373529cfbe9c86c6233d220bcd6d27928c7de3017d9",
+        "size": 6312
+      },
+      "id": "static_cpp",
+      "source": {
+        "relative_path": "bench/cpp_static_producer.cpp",
+        "sha256": "fb88cb5c8f7be2b0f7a4cb83ac994789c3f88e3a2b49726e81d476a437426423",
+        "size": 1699
+      }
+    },
+    {
+      "historical_old_object": {
+        "relative_path": "build/gnu-assembly-capture-cjxdcgvg/control.o",
+        "sha256": "22690e399773b59c25a0b3966312c5f6465c9d96690d5a91dba274b78ee80523",
+        "size": 1204
+      },
+      "id": "grouped_address",
+      "source": {
+        "relative_path": "bench/address_reuse_grouped.cpp",
+        "sha256": "04662faba3e8e68506928bb2d2623d25cf5e6a93f8f9fb1bde3e3dd223908094",
+        "size": 1200
+      }
+    }
+  ],
+  "game_drafts_compiled": false,
+  "linking": false,
+  "new_target_flags": false,
+  "original_targets_compared": false,
+  "producer_driver": {
+    "relative_path": "evidence/bucket-03w/run_cpp_producer.py",
+    "sha256": "7e0031c88b287f33b8ca5778d3b5fe99bb2fc7f4a284ad229a051401ee6dda74",
+    "size": 12749
+  },
+  "producer_profile": {
+    "relative_path": "config/cpp-producer-comparison.json",
+    "sha256": "9f2616d9c2a2d19b1064448df671569cd07e94f49713982748fbe02204b2a339",
+    "size": 4052
+  },
+  "profiles": [
+    "gcc171_cpp_O2",
+    "gcc435_cpp_O2"
+  ],
+  "runtime_execution": false,
+  "schema_version": 1,
+  "scope": "Two existing invented C++ fixtures, old/newGNUbackends, unchangeduniformO2/target/assemblerflags,2freshtrials8compiles; no targets/credit",
+  "source_match_credit": false
+}

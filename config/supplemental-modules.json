@@ -1,0 +1,91 @@
+{
+  "archive_indexes": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "candidate_inventory": {
+    "relative_path": "evidence/japan-v102-candidate.json",
+    "sha256": "5924feed55d119036be8bc88e867f4bcda11c692243aacbcd74bd3b626f660a8",
+    "size": 5433
+  },
+  "complete_game_code_inventory_established": false,
+  "declared_trials": 2,
+  "decompression": false,
+  "decryption": false,
+  "header_source": {
+    "relative_path": "toolchains/pspdecrypt/PrxDecrypter.h",
+    "sha256": "156568fcc1764fa7c8a18b341645929f5ad320a925d6967fa737d0fb62b7fd72",
+    "size": 2222
+  },
+  "inventory_profile": {
+    "relative_path": "config/overlay-inventory.json",
+    "sha256": "bddd4163726e3b303a05fb2b0fa725e3f3d2ba016657288c0c11f6c2e6cd796f",
+    "size": 772
+  },
+  "iso_paths": [
+    "/PSP_GAME/SYSDIR/EBOOT.BIN",
+    "/PSP_GAME/SYSDIR/BOOT.BIN",
+    "/PSP_GAME/SYSDIR/OPNSSMP.BIN",
+    "/PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN"
+  ],
+  "known_recovery_profile": {
+    "relative_path": "config/overlay-set-recovery.json",
+    "sha256": "e5f9c9ba4ce99ace0d433b68e33299383976a26b88b047dc27749ea615a17544",
+    "size": 2244
+  },
+  "main_control": {
+    "relative_path": "reference/uljm05800-v102/EBOOT.BIN",
+    "sha256": "9a4142cbe12086f538046633f59cc9b2bbf024c91b16cbe9710078d1cef91fb5",
+    "size": 2247664
+  },
+  "maximum_payload_bytes": 8388608,
+  "output_parent_relative_path": "reference/uljm05800-v102/supplemental-sets",
+  "preserved_inputs": [
+    {
+      "relative_path": "config/assembly-manifest.json",
+      "sha256": "391290964bfc33eb4713fe83460d71b885b34810f360d7db84799e48ce0da37a",
+      "size": 4007
+    },
+    {
+      "relative_path": "bench/archive_key_initializer.cpp",
+      "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3",
+      "size": 1806
+    },
+    {
+      "relative_path": "bench/archive_key_grouped.cpp",
+      "sha256": "e1e8671b6a465df6b539a7d6d27f334b64865bc1ed15e6edf34223bdef865cbd",
+      "size": 1377
+    },
+    {
+      "relative_path": "bench/archive_key_pointer.cpp",
+      "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373",
+      "size": 1391
+    },
+    {
+      "relative_path": "bench/archive_key_field_references.cpp",
+      "sha256": "20c14d1b6e848a6de1ebd3505584aa5850eaaaa34766e2378ebbdb78a4bc4c4b",
+      "size": 1304
+    },
+    {
+      "relative_path": "config/compiler-families.json",
+      "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab",
+      "size": 46770
+    },
+    {
+      "relative_path": "config/gcc435-consistent-fixtures.json",
+      "sha256": "bf5908a7a78e0a885df72358ed5f137eb333d52c635c63493b8e7f25553ba838",
+      "size": 1840
+    },
+    {
+      "relative_path": "config/gnu-cpp-probe-suite.json",
+      "sha256": "db6eab8d28c127ab12a74e679c2bd7fa122079278caac1c94967919f14e2cb0c",
+      "size": 3516
+    }
+  ],
+  "runtime_execution": false,
+  "schema_version": 1,
+  "source_match_credit": false,
+  "status": "frozen_before_supplemental_inventory"
+}

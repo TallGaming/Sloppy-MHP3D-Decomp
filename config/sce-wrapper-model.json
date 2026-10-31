@@ -1,0 +1,46 @@
+{
+  "archive_indexes": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "declared_trials": 2,
+  "decryption": false,
+  "loader_source": {
+    "relative_path": "evidence/bucket-03ad/helper-map-ppsspp-sceKernelModule.cpp.txt",
+    "sha256": "457010fded39ca050064149bcf35016c7fec98eee14e1893fb56b8f3261e5142",
+    "size": 161724
+  },
+  "loader_source_metadata": {
+    "relative_path": "evidence/bucket-03ad/helper-map-loader-source.json",
+    "sha256": "8962a176e666f5edfa4c3cebba991e3b03eed2c1ae0d490557e94685e1a4c4f2",
+    "size": 555
+  },
+  "manifests": [
+    {
+      "relative_path": "reference/uljm05800-v102/supplemental-sets/run-1/manifest.json",
+      "sha256": "b88187266d7cffa99f5f82ea6902dffde4c3dded119e7f3ef62dd256fafb995a",
+      "size": 8656
+    },
+    {
+      "relative_path": "reference/uljm05800-v102/supplemental-sets/run-2/manifest.json",
+      "sha256": "b88187266d7cffa99f5f82ea6902dffde4c3dded119e7f3ef62dd256fafb995a",
+      "size": 8656
+    }
+  ],
+  "maximum_wrapper_bytes": 1048576,
+  "runtime_execution": false,
+  "schema_version": 1,
+  "source_match_credit": false,
+  "supplemental_profile": {
+    "relative_path": "config/supplemental-modules.json",
+    "sha256": "96d8d9eb2f3904d8ce3f987aaaf92cf90f802c73fe845e482b553ca81ae1ed61",
+    "size": 3060
+  },
+  "supplemental_script": {
+    "relative_path": "scripts/inventory_supplemental_modules.py",
+    "sha256": "f4029f998558603f420ac246809c46d52e53cafcbd5772a5dff0879b1bf33de9",
+    "size": 13670
+  }
+}

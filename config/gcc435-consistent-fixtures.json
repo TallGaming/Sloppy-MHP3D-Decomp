@@ -1,0 +1,66 @@
+{
+  "abi_driver": {
+    "relative_path": "evidence/bucket-03aa/check_assembler_abi.py",
+    "sha256": "d7af12444b900dac6ea8a25215d9174fc4109d40261202b53b75ddfd07ba2472",
+    "size": 6355
+  },
+  "abi_profile": {
+    "relative_path": "config/gcc435-assembler-abi.json",
+    "sha256": "021db27faefe42bbe98c0066c89b75832b5c7b982a9ebc12e6550a4d59ccfe61",
+    "size": 1229
+  },
+  "abi_reports": [
+    {
+      "relative_path": "evidence/bucket-03aa/abi-trial-1.json",
+      "sha256": "97a0992d5ba0bd9841bb1a4385f54da80f7e546c9770ac41c382366d5dd7c7ae",
+      "size": 2782
+    },
+    {
+      "relative_path": "evidence/bucket-03aa/abi-trial-2.json",
+      "sha256": "1620b964a2d793dc4c67e4bc1431e795889319abe657d3818fa0c5b6f28230d7",
+      "size": 2782
+    }
+  ],
+  "compilations_per_trial": 4,
+  "compiler_flags": [
+    "-quiet",
+    "-nostdinc",
+    "-G",
+    "0",
+    "-march=allegrex",
+    "-mtune=allegrex",
+    "-mel",
+    "-mabi=eabi",
+    "-O2"
+  ],
+  "compiler_flags_changed": false,
+  "declared_trials": 2,
+  "game_drafts_compiled": false,
+  "linking": false,
+  "new_assembler_flags": [
+    "-EL",
+    "-march=allegrex",
+    "-mabi=eabi",
+    "-G0",
+    "-O0",
+    "-msingle-float"
+  ],
+  "original_targets_compared": false,
+  "prior_fixture_driver": {
+    "relative_path": "evidence/bucket-03z/run_gcc435_fixtures.py",
+    "sha256": "d2b54c55e317d2c0f4d126eeb550f6abb57b09d8a05eb0cf493f6a0c4b83433c",
+    "size": 8747
+  },
+  "prior_fixture_profile": {
+    "relative_path": "config/gcc435-fixtures.json",
+    "sha256": "6081aff692157325ccbff159b6144162a359203e4b6b773e30ebf4ca43c0786d",
+    "size": 2554
+  },
+  "profiles": [
+    "gcc171_cpp_O2",
+    "gcc435_cpp_O2_single_float_as"
+  ],
+  "runtime_execution": false,
+  "schema_version": 1,
+  "source_match_credit": false
+}

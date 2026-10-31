@@ -1,0 +1,71 @@
+{
+  "bounded_io": {
+    "relative_path": "evidence/bucket-03aj/read_import_inventory.py",
+    "sha256": "19be3c48ffb5ff8132a697b44530f2c3556397104c8592c1386b9ff02f7613bf",
+    "size": 11281
+  },
+  "callers": [
+    {
+      "callsite_virtual_address": 143009904,
+      "expected_jal_word": 237078976,
+      "window_bytes": 96,
+      "window_start_virtual_address": 143009856
+    }
+  ],
+  "elf": {
+    "relative_path": "reference/uljm05800-v102/EBOOT.ELF",
+    "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+    "size": 2247320
+  },
+  "existing_disassembly": {
+    "relative_path": "evidence/eboot-v102.disasm.txt",
+    "sha256": "30b441eb7c8acb1946af91651cb4770b1f4ee7eb476dba0b709341d526ce5a4b",
+    "size": 11575782
+  },
+  "function_end_policy": "First JRRA plus delay is a candidate only; independent full bounded control-flow review required",
+  "game_compiler_flags_changed": false,
+  "mips_interpreter": false,
+  "module_execution": false,
+  "new_game_draft": false,
+  "parked_initializer_reopened": false,
+  "preservation_records": [
+    {
+      "relative_path": "config/compiler-families.json",
+      "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab",
+      "size": 46770
+    },
+    {
+      "relative_path": "config/assembly-manifest.json",
+      "sha256": "391290964bfc33eb4713fe83460d71b885b34810f360d7db84799e48ce0da37a",
+      "size": 4007
+    }
+  ],
+  "public_counterpart": [
+    {
+      "relative_path": "evidence/bucket-03g/public-sources/src__eboot__file_sys.cpp.txt",
+      "sha256": "56fe632dde444067f99e401f58b97d7506a9efd13a7b962537e0baab223b9e02",
+      "size": 17508
+    },
+    {
+      "relative_path": "evidence/bucket-03g/public-sources/include__file_sys.hpp.txt",
+      "sha256": "a10cd2f9ca3dd78f60f5d3d662da625ac2f9ab4a69fd38fc9b879239129f7a97",
+      "size": 1760
+    }
+  ],
+  "public_source_manifest": {
+    "relative_path": "evidence/bucket-03g/public-source-manifest.json",
+    "sha256": "ad2dec350ec0accd30415478292b04a2b1440e60091b7b2ef7a68e83987a66c7",
+    "size": 9642
+  },
+  "reference_lock": {
+    "relative_path": "config/reference.json",
+    "sha256": "1fcec4f311797665098137db0c3257a1c6eab77730bec05db6e73f4b513c94a6",
+    "size": 1553
+  },
+  "schema_version": 1,
+  "source_match_credit": false,
+  "target": {
+    "entry_virtual_address": 143009536,
+    "maximum_window_bytes": 512
+  }
+}

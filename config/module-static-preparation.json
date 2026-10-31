@@ -1,0 +1,156 @@
+{
+  "control_elf": {
+    "relative_path": "reference/uljm05800-v102/EBOOT.ELF",
+    "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+    "size": 2247320
+  },
+  "control_input": {
+    "relative_path": "reference/uljm05800-v102/EBOOT.BIN",
+    "sha256": "9a4142cbe12086f538046633f59cc9b2bbf024c91b16cbe9710078d1cef91fb5",
+    "size": 2247664
+  },
+  "declared_trials": 2,
+  "elf_parser": {
+    "relative_path": "scripts/elf32.py",
+    "sha256": "766f16f86736ed0a04eb6c1ed439bd8aa96d2aab0b0c99e49055934e2fd45833",
+    "size": 5614
+  },
+  "eligible_case_ids": [
+    "archive-17",
+    "archive-18",
+    "archive-19",
+    "archive-20",
+    "opnssmp"
+  ],
+  "helper": {
+    "relative_path": "toolchains/pspdecrypt/pspdecrypt",
+    "sha256": "05d323b28b3ceed86a42d019767ddcdae3e40f85dacebe25a5fe7d86f2b02c98",
+    "size": 229584
+  },
+  "helper_cli_source": {
+    "relative_path": "toolchains/pspdecrypt/pspdecrypt.cpp",
+    "sha256": "7f7acb398084b895f20cca9cc09d197c690cf6acec70b82bdc48f178c3181206",
+    "size": 10507
+  },
+  "helper_flags": [
+    "-o"
+  ],
+  "helper_lock": {
+    "relative_path": "config/helper-tools.json",
+    "sha256": "d39be7d886e609976593128a98b0fa5eea554ebe11fdc441f7b6404261304997",
+    "size": 594
+  },
+  "helper_prx_source": {
+    "relative_path": "toolchains/pspdecrypt/PrxDecrypter.cpp",
+    "sha256": "aceeb545e8b9d8ccfb6e24b22b2be4123a33a97bb927193c1e537b1b3458a2e3",
+    "size": 55124
+  },
+  "helper_runtime_environment": {
+    "LC_ALL": "C"
+  },
+  "helper_runtime_inventory": {
+    "relative_path": "evidence/bucket-03ad/helper-host-runtime.json",
+    "sha256": "d8aa6555675945086098406ff348b0c8e99f8c65c8422a2e1f16737426b67c98",
+    "size": 1210
+  },
+  "host_runtime": [
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "sha256": "bda779ea9e9ad234f60315477d7cfd0bdde861cd8ddd9df8cdaf62f18c4cec14",
+      "size": 254864
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3.1",
+      "sha256": "27fa6c6cb94fb5b099ead61758a300dbc392d1dbf307fff6c16a9b8e57fdc9de",
+      "size": 121272
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "sha256": "5385f0436ac2e284ba8c5fb1488874057c29c04be72dea32add832694f381e28",
+      "size": 6386528
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.35",
+      "sha256": "5bb0d21308f123b6ad46c6f35b42cedfcb8d6d439a53aa3dae04d880aaffdde3",
+      "size": 2735712
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "sha256": "9d339ecb409578d6a5d587e6c537a8f9589b8a13fefba30d167433a4b5758bee",
+      "size": 187120
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "sha256": "85e64f97e348786a8fb4d9f3d52fec289e2fb86bba20f0731dfe61990525e0f7",
+      "size": 2190608
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "sha256": "1c488db6f4fe8cecb72456bc018de000b7a9b539c2994864b0416b5e8371b3d8",
+      "size": 1198376
+    }
+  ],
+  "ld_cache": {
+    "linux_path": "/etc/ld.so.cache",
+    "sha256": "45dea0a272bd5e8c827a127c0c225176d94634f05d82881259368c7d48a30088",
+    "size": 42351
+  },
+  "maximum_output_bytes": 16777216,
+  "module_execution": false,
+  "ownership_established": false,
+  "runtime_bindings": [
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "lookup_path": "/lib64/ld-linux-x86-64.so.2"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3.1",
+      "lookup_path": "/lib/x86_64-linux-gnu/libz.so.1"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "lookup_path": "/lib/x86_64-linux-gnu/libcrypto.so.3"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.35",
+      "lookup_path": "/lib/x86_64-linux-gnu/libstdc++.so.6"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "lookup_path": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "lookup_path": "/lib/x86_64-linux-gnu/libc.so.6"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "lookup_path": "/lib/x86_64-linux-gnu/libm.so.6"
+    }
+  ],
+  "schema_version": 1,
+  "source_match_credit": false,
+  "timeout_seconds": 20,
+  "wrapper_driver": {
+    "relative_path": "evidence/bucket-03ad/inspect_sce_wrappers.py",
+    "sha256": "e0fcc53579404af4ea6f6b2f68683c76a69352e936aaadc59cac6b7739331b99",
+    "size": 9192
+  },
+  "wrapper_profile": {
+    "relative_path": "config/sce-wrapper-model.json",
+    "sha256": "abc44e51d6f922ab55100b6b985b90c31cadbdab204a820aea2690b66413a841",
+    "size": 1516
+  },
+  "wrapper_reports": [
+    {
+      "relative_path": "evidence/bucket-03ad/wrapper-trial-1.json",
+      "sha256": "8405266c9100e45d0bab3c8c34600ee4e9575001abeae4a05cb52d463c17e105",
+      "size": 9016
+    },
+    {
+      "relative_path": "evidence/bucket-03ad/wrapper-trial-2.json",
+      "sha256": "8405266c9100e45d0bab3c8c34600ee4e9575001abeae4a05cb52d463c17e105",
+      "size": 9016
+    }
+  ]
+}

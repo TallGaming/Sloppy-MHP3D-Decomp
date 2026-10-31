@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "status": "reviewed_frozen_source_experiment_not_toolchain_lock",
+  "reviewed_before_compilation": true,
+  "review_record": "docs/SOURCE_HYPOTHESES.md",
+  "baseline": {
+    "relative_path": "bench/compiler_probes.c",
+    "size": 4413,
+    "sha256": "d5d588c184c7c95a86bb3772e760f9251d33e3e4aabf92dfc0449c6ddc7c7a95"
+  },
+  "candidate_config": {
+    "relative_path": "config/compiler-candidates.json",
+    "size": 12142,
+    "sha256": "9ba0d75472c7a1ceb45ffdbc46c50d3ffa119c3315be0e93c2f9f8ada4099147"
+  },
+  "probe_manifest": {
+    "relative_path": "config/compiler-probes.json",
+    "size": 8224,
+    "sha256": "2a3a7783a11704c870311470cf851434ec1e0a660af29787db48178b2c58ffbc"
+  },
+  "reference_lock": {
+    "relative_path": "config/reference.json",
+    "size": 1553,
+    "sha256": "1fcec4f311797665098137db0c3257a1c6eab77730bec05db6e73f4b513c94a6"
+  },
+  "variants": [
+    {
+      "id": "guarded_list",
+      "changed_function": "probe_08830654",
+      "source": {
+        "relative_path": "bench/hypotheses/compiler_probes_guarded_list.c",
+        "size": 4460,
+        "sha256": "ed2c865775d70d857cec9f8f825ecb5a5925bf4d09379c10465f886602c7b1d1"
+      },
+      "change": {
+        "baseline_span": [
+          2598,
+          2713
+        ],
+        "alternative_span": [
+          2598,
+          2760
+        ],
+        "baseline_body_sha256": "035d6ec8216d8ab9065a5959d64ff44947aa30ce2691252487ab9f825f95d663",
+        "alternative_body_sha256": "6b91859c12265a3d08bdef4924268030d0ad5bc3b926be1e0029e9b33c89681e",
+        "unchanged_prefix_sha256": "92a568d118e06eea4ba4e3f6f6c288969499d5cb53e3abd9421f5dd9103299ff",
+        "unchanged_suffix_sha256": "47012c1ec40ab3d52f76b7c2cfefc6dd6e9b3c285a4a868aa146b6318fe07997"
+      }
+    },
+    {
+      "id": "pointer_bytes",
+      "changed_function": "probe_08830550",
+      "source": {
+        "relative_path": "bench/hypotheses/compiler_probes_pointer_bytes.c",
+        "size": 4425,
+        "sha256": "2cd8899bd3ad3060e77cb0131c990f6f14ae4fd86879689a560b42f20dfb6ddf"
+      },
+      "change": {
+        "baseline_span": [
+          2155,
+          2326
+        ],
+        "alternative_span": [
+          2155,
+          2338
+        ],
+        "baseline_body_sha256": "117bbf704b94a33b28278b200b439e75d5344a676a99102a58456e7a2bb85439",
+        "alternative_body_sha256": "c72413afff532fa50a24f1ebb4623a7496619e56eb819fc9b1cc9db6b3b53129",
+        "unchanged_prefix_sha256": "f221a828b928c7ebe56fd3e8ac9adeae447dec2cd92fc4954d989a55d3e2de22",
+        "unchanged_suffix_sha256": "2d2ede270019f50792baace7cf95292e82467bfde5f6b0206b275bd042798d82"
+      }
+    }
+  ]
+}

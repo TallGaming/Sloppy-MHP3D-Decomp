@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "source": "bench/compiler_probes.c",
+  "probes": [
+    {
+      "name": "probe_0883C4F8",
+      "address": 142853368,
+      "size": 16,
+      "target_sha256": "47893565a2821875c3cfee89c15efa58615b0c0eecaafe681b9f4a81f9a02d1e",
+      "category": "control_byte_boolean",
+      "boundary_evidence": "Direct JAL at 0x0884224C, 0x088423F8, 0x08845BDC; complete final jr ra and delay slot at 0x0883C500/0x0883C504; next observed block at 0x0883C508; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0883C508",
+      "address": 142853384,
+      "size": 12,
+      "target_sha256": "5c3315e5beae796208dfdfd20c059e89ac696a9507f69e950d78c08a3496ea10",
+      "category": "control_byte_clear",
+      "boundary_evidence": "Direct JAL at 0x0883C534; complete final jr ra and delay slot at 0x0883C50C/0x0883C510; next observed block at 0x0883C514; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_08826448",
+      "address": 142763080,
+      "size": 16,
+      "target_sha256": "323ae31ef85b25cb87829b52d50f751c49d812343a9b1b0a553c45b6ecccf798",
+      "category": "control_byte_copy_advance",
+      "boundary_evidence": "Direct JAL at 0x088263A0, 0x088263AC, 0x088263B8 (and 3 more); complete final jr ra and delay slot at 0x08826450/0x08826454; next observed block at 0x08826458; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0885691C",
+      "address": 142960924,
+      "size": 20,
+      "target_sha256": "980a150bf69dcebf9ced5471a586c090d96564e6b405456283e309eb44006dfa",
+      "category": "control_mixed_field_clear",
+      "boundary_evidence": "Direct JAL at 0x088BEA10; complete final jr ra and delay slot at 0x08856928/0x0885692C; next observed block at 0x08856930; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0885697C",
+      "address": 142961020,
+      "size": 16,
+      "target_sha256": "010d24a38b11c7e8a1f2a9adbbacb04f05f6297df8d06fae6798b25b8594fc5d",
+      "category": "control_byte_set",
+      "boundary_evidence": "Direct JAL at 0x088BFB50; complete final jr ra and delay slot at 0x08856984/0x08856988; next observed block at 0x0885698C; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_08856A14",
+      "address": 142961172,
+      "size": 12,
+      "target_sha256": "5dcc51e9a53021d08df806ae7002fb8e996418eeb3ebc3a5502ea1218a46207b",
+      "category": "control_constant",
+      "boundary_evidence": "Direct JAL at 0x088D5ACC; complete final jr ra and delay slot at 0x08856A18/0x08856A1C; next observed block at 0x08856A20; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0885BBFC",
+      "address": 142982140,
+      "size": 16,
+      "target_sha256": "c86f120b7b62f25799064f3b9436075e47ad14306d31627c7248ac841da43e7f",
+      "category": "control_byte_arithmetic",
+      "boundary_evidence": "Direct JAL at 0x0883CDE4, 0x0883CFE8, 0x0883EB0C (and 16 more); complete final jr ra and delay slot at 0x0885BC04/0x0885BC08; next observed block at 0x0885BC0C; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_08860C9C",
+      "address": 143002780,
+      "size": 12,
+      "target_sha256": "177fa2048ef81c40d5dac0eecf4e44e53ae29e08bce58ffea264f01e930449a1",
+      "category": "control_field_read",
+      "boundary_evidence": "Direct JAL at 0x088B88D0, 0x088CDEE0, 0x088CF5E8 (and 5 more); complete final jr ra and delay slot at 0x08860CA0/0x08860CA4; next observed block at 0x08860CA8; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_08830550",
+      "address": 142804304,
+      "size": 52,
+      "target_sha256": "f824a52a4e64b4e9a88ac993e8292a50ef13c2fad595ab9e15f99aa7ff4460c3",
+      "category": "loop_byte_boolean_reduction",
+      "boundary_evidence": "Direct JAL at 0x0882DE4C, 0x0882E6CC, 0x0882E964 (and 31 more); complete final jr ra and delay slot at 0x0883057C/0x08830580; next observed block at 0x08830584; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_08830654",
+      "address": 142804564,
+      "size": 36,
+      "target_sha256": "434761d8e0b6ccb5c0a07543f4e9d32021bee26b0b688265ef8c38d95fc6f50b",
+      "category": "loop_pointer_chase",
+      "boundary_evidence": "Direct JAL at 0x08830764; complete final jr ra and delay slot at 0x08830670/0x08830674; next observed block at 0x08830678; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0882DA68",
+      "address": 142793320,
+      "size": 48,
+      "target_sha256": "278f8d02d1249a333de5dca0b322729797aaefcf6a486608c4907a3a37307102",
+      "category": "loop_u16_terminator",
+      "boundary_evidence": "Direct JAL at 0x0882DAC4, 0x0882DAD8, 0x0886A8EC (and 5 more); complete final jr ra and delay slot at 0x0882DA90/0x0882DA94; next observed block at 0x0882DA98; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0883E944",
+      "address": 142862660,
+      "size": 48,
+      "target_sha256": "25481f39ad18f0ca23067dc765a3374c3e487416f2b1422056fc8a3fc13fc954",
+      "category": "branch_signed_division",
+      "boundary_evidence": "Direct JAL at 0x0892811C; complete final jr ra and delay slot at 0x0883E96C/0x0883E970; next observed block at 0x0883E974; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_08862434",
+      "address": 143008820,
+      "size": 72,
+      "target_sha256": "3d2d12ca401c868818962142828202aa6ed7fa83ea8c45e13653ffdaabd2674e",
+      "category": "branch_unsigned_range",
+      "boundary_evidence": "Direct JAL at 0x08862950, 0x08863FE8, 0x08864524 (and 1 more); complete final jr ra and delay slot at 0x08862474/0x08862478; next observed block at 0x0886247C; no direct external control-flow target inside interval. Earlier return and delay slot at 0x08862464/0x08862468; its branch-to-false block remains inside the full interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    },
+    {
+      "name": "probe_0886A58C",
+      "address": 143041932,
+      "size": 68,
+      "target_sha256": "e52b7624ac31dfae246ca6ee99e1f3c0e6a700cbbfa1b58486110894aa36248d",
+      "category": "loop_bit_reduction",
+      "boundary_evidence": "Direct JAL at 0x0891F6E0, 0x0891F788, 0x089295C0 (and 1 more); complete final jr ra and delay slot at 0x0886A5C8/0x0886A5CC; next observed block at 0x0886A5D0; no direct external control-flow target inside interval.",
+      "ownership": "unclassified; game/SDK/third-party attribution not established",
+      "relocations": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "scope": "visible isolated routine parking; not a linked reconstruction or implicit assembly fallback",
+  "modules": [
+    {
+      "id": "uljm05800-v102-eboot",
+      "reference": {
+        "relative_path": "reference/uljm05800-v102/EBOOT.ELF",
+        "size": 2247320,
+        "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950"
+      },
+      "functions": [
+        {
+          "label": "archive_key_initialize",
+          "original_name_known": false,
+          "address": 143008572,
+          "size": 68,
+          "reference_bytes_sha256": "7d089e6e2131eb950e3d72ee437c4aab2ec4a775e0baf8c4d45901cb227cee57",
+          "status": "PARKED",
+          "ownership": "unclassified archive-related routine; no positive SDK/third-party library identification",
+          "assembly": {
+            "relative_path": "asm/nonmatching/archive_key_initialize.s",
+            "size": 1026,
+            "sha256": "ad4d4ea2fd5873df111ad552517035fcae3d5aab4af5b4fbe54cdae42db68058"
+          },
+          "source_linked": false,
+          "game_match_credit": false,
+          "drafts": [
+            {
+              "source": {
+                "relative_path": "bench/archive_key_initializer.cpp",
+                "size": 1806,
+                "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3"
+              },
+              "category": "PLAIN",
+              "attempt": 1,
+              "compiled_function_size": 100,
+              "compiled_function_sha256": "193c361fab07498ef61aa22bfa4c417f10bfbfcd0cdb8bd50a591f7838aad2da",
+              "outcome": "NONEXACT"
+            },
+            {
+              "source": {
+                "relative_path": "bench/archive_key_grouped.cpp",
+                "size": 1377,
+                "sha256": "e1e8671b6a465df6b539a7d6d27f334b64865bc1ed15e6edf34223bdef865cbd"
+              },
+              "category": "PLAIN",
+              "attempt": 2,
+              "compiled_function_size": 100,
+              "compiled_function_sha256": "193c361fab07498ef61aa22bfa4c417f10bfbfcd0cdb8bd50a591f7838aad2da",
+              "outcome": "NONEXACT"
+            },
+            {
+              "source": {
+                "relative_path": "bench/archive_key_pointer.cpp",
+                "size": 1391,
+                "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373"
+              },
+              "category": "PLAIN",
+              "attempt": 3,
+              "compiled_function_size": 72,
+              "compiled_function_sha256": "ba2cd810be0758f8ba2a416a28d7bb30c9f1b5857e6596c4bdbd876e934a5331",
+              "outcome": "NONEXACT"
+            },
+            {
+              "source": {
+                "relative_path": "bench/archive_key_field_references.cpp",
+                "size": 1304,
+                "sha256": "20c14d1b6e848a6de1ebd3505584aa5850eaaaa34766e2378ebbdb78a4bc4c4b"
+              },
+              "category": "COMMENTED_MATCHING_SHAPE",
+              "attempt": 1,
+              "compiled_function_size": 84,
+              "compiled_function_sha256": "6dd695b97d4b7cf3f61e246bb0b5c33fc557aa6ceed7bb00992dbc77bab37b30",
+              "outcome": "NONEXACT"
+            }
+          ],
+          "best_draft": {
+            "relative_path": "bench/archive_key_pointer.cpp",
+            "size": 1391,
+            "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373"
+          },
+          "plain_source_attempts": 3,
+          "matching_shape_attempts": 1,
+          "commented_shape_functions": 1,
+          "register_pins": 0,
+          "empty_asm_lines": 0,
+          "attempt_log": "docs/ARCHIVE_KEY_PARKING.md",
+          "revisit_condition": "new independent compiler/global-profile, original class/source-unit evidence, or a verified already-matching shared-base source pattern; no per-function flag tuning"
+        }
+      ]
+    }
+  ]
+}

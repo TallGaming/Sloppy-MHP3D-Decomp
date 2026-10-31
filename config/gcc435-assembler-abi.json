@@ -1,0 +1,42 @@
+{
+  "baseline_flags": [
+    "-EL",
+    "-march=allegrex",
+    "-mabi=eabi",
+    "-G0",
+    "-O0"
+  ],
+  "compiler_invoked": false,
+  "consistent_flags": [
+    "-EL",
+    "-march=allegrex",
+    "-mabi=eabi",
+    "-G0",
+    "-O0",
+    "-msingle-float"
+  ],
+  "declared_trials": 2,
+  "game_input": false,
+  "prior_driver": {
+    "relative_path": "evidence/bucket-03z/run_gcc435_fixtures.py",
+    "sha256": "d2b54c55e317d2c0f4d126eeb550f6abb57b09d8a05eb0cf493f6a0c4b83433c",
+    "size": 8747
+  },
+  "retained_assembly": {
+    "relative_path": "build/gcc435-fixtures-4x_iby11/gcc435_cpp_O2-static_cpp/emitted.s",
+    "sha256": "aae4577da7c1b830e0baa52315325c257f05483097845a09075c8d253fca866d",
+    "size": 16510
+  },
+  "retained_partial_object": {
+    "relative_path": "build/gcc435-fixtures-4x_iby11/gcc435_cpp_O2-static_cpp/candidate.o",
+    "sha256": "890b3018129707bde119a706fc6540cd12d4dff683f32bf65aca6eee1f52e41d",
+    "size": 6056
+  },
+  "schema_version": 1,
+  "source_match_credit": false,
+  "target_help": {
+    "relative_path": "evidence/bucket-03z/candidate-help-2.stdout",
+    "sha256": "bf4ff1e35672e03569d447e2927f5eff6f7ed3b424ae6e7683c369daf60b21de",
+    "size": 2755
+  }
+}

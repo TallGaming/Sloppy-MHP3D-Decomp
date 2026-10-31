@@ -1,0 +1,101 @@
+{
+  "build_environment": {
+    "LC_ALL": "C",
+    "PATH": "/usr/bin:/bin"
+  },
+  "built_helpers_executed": false,
+  "declared_trials": 2,
+  "expected_generated_files": [
+    "PrxDecrypter.o",
+    "PsarDecrypter.o",
+    "common.o",
+    "ipl_decrypt.o",
+    "kl4e.o",
+    "libLZR.o",
+    "libkirk/AES.o",
+    "libkirk/SHA1.o",
+    "libkirk/amctrl.o",
+    "libkirk/bn.o",
+    "libkirk/ec.o",
+    "libkirk/kirk_engine.o",
+    "pspdecrypt",
+    "pspdecrypt.o",
+    "pspdecrypt_lib.o",
+    "syscon_ipl_keys.o"
+  ],
+  "forbidden_environment_keys": [
+    "MAKEFLAGS",
+    "GNUMAKEFLAGS",
+    "MAKEFILES",
+    "MFLAGS",
+    "MAKEOVERRIDES",
+    "GCC_EXEC_PREFIX",
+    "COMPILER_PATH",
+    "LIBRARY_PATH",
+    "CPATH",
+    "C_INCLUDE_PATH",
+    "CPLUS_INCLUDE_PATH",
+    "OBJC_INCLUDE_PATH",
+    "CPPFLAGS",
+    "CFLAGS",
+    "CXXFLAGS",
+    "EXTRA_FLAG",
+    "LD_RUN_PATH",
+    "LD_LIBRARY_PATH",
+    "LD_PRELOAD",
+    "LD_AUDIT"
+  ],
+  "game_compiler_flags_changed": false,
+  "host_tools": {
+    "relative_path": "evidence/bucket-03ah/host-build-tools.json",
+    "sha256": "069c50542b39c78b340e4f7eb7a6c36a3c118ca82c0fabe3c10c17934dc83311",
+    "size": 3487
+  },
+  "make_arguments": [
+    "-j4",
+    "CC=/usr/bin/gcc",
+    "CXX=/usr/bin/g++"
+  ],
+  "maximum_inspected_file_bytes": 16777216,
+  "prior_driver": {
+    "relative_path": "evidence/bucket-03ad/prepare_module_candidates.py",
+    "sha256": "75b928004528783e5c6ee3227b9ee5a9771a421b056f6d4322c204fc95fad162",
+    "size": 14310
+  },
+  "prior_profile": {
+    "relative_path": "config/module-static-preparation.json",
+    "sha256": "64e74c98f2560e6e0eb49d79976198850b1e748066cd4145243cab724f240784",
+    "size": 5078
+  },
+  "public_metadata": {
+    "relative_path": "evidence/bucket-03ah/helper-map-jpcsp-KeyVault.java.txt",
+    "sha256": "ea4251df06ab578270acb42e96778e526dcee6fc63b26b307e8f7f6fe6c1085b",
+    "size": 61070
+  },
+  "public_metadata_manifest": {
+    "relative_path": "evidence/bucket-03ah/helper-map-key-metadata-source.json",
+    "sha256": "5602c7d66202a3d112c789522216c413c119e141dd831a9662f5fad6ccf0d359",
+    "size": 614
+  },
+  "public_tag_source": {
+    "relative_path": "evidence/bucket-03ag/helper-map-jpcsp-PRX.java.txt",
+    "sha256": "3da0bc13170a97b0bd06f7e2dcd5edb841c8a10f7af0cb97a238c3b494f60ccd",
+    "size": 50795
+  },
+  "schema_version": 1,
+  "source_archive": {
+    "relative_path": "evidence/bucket-03ah/pspdecrypt-pinned-source.tar",
+    "sha256": "abd11df27e44f83ee5e509ce729b9722787f5ea9af272f66b85e086ed1f9c663",
+    "size": 440320
+  },
+  "source_inventory": {
+    "relative_path": "evidence/bucket-03ah/source-isolation.json",
+    "sha256": "2f4d7feb855d990e512e98265e6d4e9b1968b3164041d4a72ed03490530a3b4e",
+    "size": 16507
+  },
+  "timeout_seconds": 180,
+  "variants": [
+    "baseline",
+    "candidate"
+  ]
+}

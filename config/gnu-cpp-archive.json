@@ -1,0 +1,75 @@
+{
+  "archive_driver": {
+    "relative_path": "scripts/bench_archive_key.py",
+    "sha256": "30c4b8d9fa18e7eac32b18e3defb86e103cb58996fe9cfb10f33d19b3a7f8535",
+    "size": 9633
+  },
+  "archive_profile": {
+    "relative_path": "config/archive-key-experiment.json",
+    "sha256": "30b5372dab0d1e2fb9dc0ec4436ca0e78af1922728c5a421499a66e2a4cc5188",
+    "size": 1902
+  },
+  "declared_trials": 2,
+  "forms": [
+    {
+      "historical_mw_object": {
+        "relative_path": "build/archive-pointer-3ifya77m/flat.o",
+        "sha256": "1d715acabd4cdec572d40c1905504881a396fa5e11296f1163533b30941d7796",
+        "size": 768
+      },
+      "id": "flat",
+      "source": {
+        "relative_path": "bench/archive_key_initializer.cpp",
+        "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3",
+        "size": 1806
+      }
+    },
+    {
+      "historical_mw_object": {
+        "relative_path": "build/archive-pointer-3ifya77m/pointer.o",
+        "sha256": "5ee9111363a6205e76bd0c3f12dccd4bf174fdeef574229b7bf561c49298bd42",
+        "size": 736
+      },
+      "id": "pointer",
+      "source": {
+        "relative_path": "bench/archive_key_pointer.cpp",
+        "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373",
+        "size": 1391
+      }
+    }
+  ],
+  "linking": false,
+  "naming_compilations": 2,
+  "naming_source": {
+    "relative_path": "bench/archive_key_naming.cpp",
+    "sha256": "ba25728588ef85085ccf3c51647f741c17bddbe147e6823e5a654546f7c937c2",
+    "size": 364
+  },
+  "new_source_hypotheses": 0,
+  "parked_status": "PARKED",
+  "producer_driver": {
+    "relative_path": "evidence/bucket-03w/run_cpp_producer.py",
+    "sha256": "7e0031c88b287f33b8ca5778d3b5fe99bb2fc7f4a284ad229a051401ee6dda74",
+    "size": 12749
+  },
+  "producer_profile": {
+    "relative_path": "config/cpp-producer-comparison.json",
+    "sha256": "9f2616d9c2a2d19b1064448df671569cd07e94f49713982748fbe02204b2a339",
+    "size": 4052
+  },
+  "profiles": [
+    "mw219_cpp_O2",
+    "gcc171_cpp_O2"
+  ],
+  "revisit_reason": "Independent original static C++ unit evidence in3V plus three-producer convention separation in3W; not a target-driven flag change",
+  "runtime_execution": false,
+  "schema_version": 1,
+  "scope": "Unchanged retained flat/pointer archive drafts under exact existing GNUCppO2 and MWCppO2 profiles; no new forms/flags/credit",
+  "source_match_credit": false,
+  "strict_comparator": {
+    "relative_path": "scripts/bench_compiler.py",
+    "sha256": "ab6b3c441c762180f3e0269cc4ea07c4d5e3c4801136907cc93ac1495db94d5c",
+    "size": 16064
+  },
+  "target_compilations": 8
+}

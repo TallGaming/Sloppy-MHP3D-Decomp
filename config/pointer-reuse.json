@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_fixture_compilation",
+  "scope": "two invented grouped-versus-named-local-pointer fixtures; no game candidate comparison",
+  "grouping_profile": {
+    "relative_path": "config/address-reuse.json",
+    "size": 1509,
+    "sha256": "614238f14ac02863dec2821e9b9ade3d002e6946a3116b494e9b758e1864f5f1"
+  },
+  "historical_control": {
+    "relative_path": "build/address-reuse-o2mm0k1m/grouped.o",
+    "size": 768,
+    "sha256": "775c998a2213ab73a0458f44dc6357336afe8fea2d9b2e30f90d637e4fed101c"
+  },
+  "common_flags": [
+    "-nostdinc",
+    "-lang",
+    "c++",
+    "-c"
+  ],
+  "optimization": [
+    "-O2"
+  ],
+  "object_symbol": "initialize_key__17ArchiveKeyContextFUi",
+  "field_offsets": {
+    "lower": 106784,
+    "upper": 106788
+  },
+  "defaults": {
+    "lower": 4951,
+    "upper": 9320
+  },
+  "declared_trials": 2,
+  "named_pointer_only": true,
+  "fixtures": [
+    {
+      "id": "grouped",
+      "source": {
+        "relative_path": "bench/address_reuse_grouped.cpp",
+        "size": 1200,
+        "sha256": "04662faba3e8e68506928bb2d2623d25cf5e6a93f8f9fb1bde3e3dd223908094"
+      }
+    },
+    {
+      "id": "pointer",
+      "source": {
+        "relative_path": "bench/address_reuse_pointer.cpp",
+        "size": 1329,
+        "sha256": "54070496d2c38d71c3153025874637007acd6fa226d87849cca64c9749bde58b"
+      }
+    }
+  ]
+}

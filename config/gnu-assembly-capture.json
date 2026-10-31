@@ -1,0 +1,28 @@
+{
+  "compilations_per_trial": 2,
+  "compiler_flags_changed": false,
+  "declared_trials": 2,
+  "game_drafts_compiled": false,
+  "original_targets_compared": false,
+  "producer_driver": {
+    "relative_path": "evidence/bucket-03w/run_cpp_producer.py",
+    "sha256": "7e0031c88b287f33b8ca5778d3b5fe99bb2fc7f4a284ad229a051401ee6dda74",
+    "size": 12749
+  },
+  "producer_profile": {
+    "relative_path": "config/cpp-producer-comparison.json",
+    "sha256": "9f2616d9c2a2d19b1064448df671569cd07e94f49713982748fbe02204b2a339",
+    "size": 4052
+  },
+  "raw_assembly_only": true,
+  "runtime_execution": false,
+  "schema_version": 1,
+  "scope": "Existing invented grouped address fixture; exact GNUCppO2 ordinary vs verbatim assembly-capture staging,2freshtrials4compiles",
+  "selected_profile": "gcc171_cpp_O2",
+  "source": {
+    "relative_path": "bench/address_reuse_grouped.cpp",
+    "sha256": "04662faba3e8e68506928bb2d2623d25cf5e6a93f8f9fb1bde3e3dd223908094",
+    "size": 1200
+  },
+  "source_match_credit": false
+}

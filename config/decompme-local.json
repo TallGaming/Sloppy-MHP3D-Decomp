@@ -1,0 +1,26 @@
+{
+  "compiler": "mwccpsp_3.0.1_219",
+  "compose_path": "/home/<user>/mhp3rd-tools/decompme-instance/compose.json",
+  "compose_sha256": "2030a2fd595887ddf2a7aef9600bef43342f0bb7a1cea126b5da532609d0efcf",
+  "distribution": "Ubuntu",
+  "external_objdiff": "disabled; local explanatory page; assembly diff remains enabled",
+  "game_toolchain_selected": false,
+  "keepalive_script": "/home/<user>/mhp3rd-tools/decompme-instance/keepalive.py",
+  "keepalive_sha256": "eb0ee2fdddd84fa6a859af0d332dcff152b7aa3b8b707393c5994c183265b5aa",
+  "keepalive_stop": "/home/<user>/mhp3rd-tools/decompme-instance/keepalive.stop",
+  "persistent_database": "/home/<user>/mhp3rd-tools/decompme-instance/state/decompme.sqlite3",
+  "pinned_runtime_files": [
+    {
+      "path": "/home/<user>/mhp3rd-tools/decompme-instance/nginx.conf",
+      "sha256": "0df745a41d6839ea7d2ee10a3e8ab37f7a5a8e7be47c66f7057e95812b8b7a61"
+    },
+    {
+      "path": "/home/<user>/mhp3rd-tools/decompme-instance/backend-start.sh",
+      "sha256": "1a53759bf5ab703cbe51c716323606ff863e140f9cebad8c52ddb001fc026662"
+    }
+  ],
+  "runtime_network": "backend/frontend/cromper internal only; nginx alone also joins loopback-publishing gateway network",
+  "source_commit": "cddb46d53a0405f35be42c1c45aaa5b59dfa1ad7",
+  "source_directory": "/home/<user>/mhp3rd-tools/decompme-local",
+  "url": "http://127.0.0.1:8787"
+}

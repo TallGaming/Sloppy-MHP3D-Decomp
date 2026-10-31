@@ -1,0 +1,128 @@
+{
+  "actual_preparation_profile": {
+    "relative_path": "config/kl4e-host-experiment.json",
+    "sha256": "73fca5a2b03c7bcc6206f85ea24d897f25770f54601d9ec1069fab15f9980ee7",
+    "size": 2484
+  },
+  "actual_preparation_reports": [
+    {
+      "relative_path": "evidence/bucket-03ai/actual-trial-1.json",
+      "sha256": "a2718b5b4448555f344aa2fe36f2aee52ffd617a22b9228f6103442d7b339cf9",
+      "size": 5988
+    },
+    {
+      "relative_path": "evidence/bucket-03ai/actual-trial-2.json",
+      "sha256": "e9f30f347166fb469809c00eaf5213232a15f011a59d380168cc976ec0571480",
+      "size": 5988
+    }
+  ],
+  "actual_preparation_witnesses": [
+    {
+      "relative_path": "evidence/bucket-03ai/actual-stage-1.json",
+      "sha256": "a0bba6cfe138bfb54e6b8edc6d145fffb2e2f79aee1533f2b465452d9951a54a",
+      "size": 925
+    },
+    {
+      "relative_path": "evidence/bucket-03ai/actual-stage-2.json",
+      "sha256": "7ceb5c191ac0a38dae4b3bcbc83199ae338893e8b0bed339297856f6ef10ae66",
+      "size": 925
+    }
+  ],
+  "case_ids": [
+    "main-control",
+    "opnssmp"
+  ],
+  "cases": [
+    {
+      "copies": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/control/prepared.elf",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/control/prepared.elf",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        }
+      ],
+      "id": "main-control"
+    },
+    {
+      "copies": [
+        {
+          "relative_path": "build/kl4e-opnssmp-a_2x0kfu/opnssmp/prepared.bin",
+          "sha256": "2b4c5af91c7be885054e997bd05a51d8d5d7d544098b2395dc6d893e0e374599",
+          "size": 3550
+        },
+        {
+          "relative_path": "build/kl4e-opnssmp-suy2vdj4/opnssmp/prepared.bin",
+          "sha256": "2b4c5af91c7be885054e997bd05a51d8d5d7d544098b2395dc6d893e0e374599",
+          "size": 3550
+        }
+      ],
+      "id": "opnssmp"
+    }
+  ],
+  "declared_trials": 2,
+  "format_sources": {
+    "relative_path": "evidence/bucket-03aj/helper-map-import-sources.json",
+    "sha256": "703abe439ce668cb8f6ba7badeb558ed40111b4d3ac2f8b81207773410e68c13",
+    "size": 2845
+  },
+  "game_compiler_flags_changed": false,
+  "library_ownership_established": false,
+  "main_metadata_profile": {
+    "relative_path": "config/psp-copy-loader-metadata.json",
+    "sha256": "a32c4f32522b0da1bc2261e90252724f50b797eb1799624a790ef51021ca558e",
+    "size": 7427
+  },
+  "main_metadata_reports": [
+    {
+      "relative_path": "evidence/bucket-03af/metadata-trial-1.json",
+      "sha256": "c9490f6a2d0cee5214c5935aa6ac6b23dd8385dac6e773c922b498657d3c0514",
+      "size": 422021
+    },
+    {
+      "relative_path": "evidence/bucket-03af/metadata-trial-2.json",
+      "sha256": "c9490f6a2d0cee5214c5935aa6ac6b23dd8385dac6e773c922b498657d3c0514",
+      "size": 422021
+    }
+  ],
+  "metadata_dependencies": [
+    {
+      "relative_path": "scripts/elf32.py",
+      "sha256": "766f16f86736ed0a04eb6c1ed439bd8aa96d2aab0b0c99e49055934e2fd45833",
+      "size": 5614
+    },
+    {
+      "relative_path": "scripts/prepare_reference.py",
+      "sha256": "1d28d5f6edb44ac76bab7efe519fb29e14bc9bfbb4da5688ade6d81e8323e607",
+      "size": 13453
+    },
+    {
+      "relative_path": "scripts/inspect_input.py",
+      "sha256": "20e8c206f7418789e716d2defa113030f07ed2568eb9b0b0fff50a644d96f590",
+      "size": 10424
+    }
+  ],
+  "metadata_reader": {
+    "relative_path": "evidence/bucket-03af/read_psp_copy_loader_metadata.py",
+    "sha256": "dabefc096a5f5bf5fe35a4a90d24451ec052a0fc4205d17f0a2b0e52922f4826",
+    "size": 14102
+  },
+  "module_execution": false,
+  "parser": {
+    "relative_path": "evidence/bucket-03aj/import_tables.py",
+    "sha256": "d55c8cc95e665bdd54209ebe7f346a36621b42f05636fba132006fe3ee3541ea",
+    "size": 11681
+  },
+  "relocations_applied": false,
+  "schema_version": 1,
+  "source_match_credit": false,
+  "tests": {
+    "relative_path": "evidence/bucket-03aj/test_import_tables.py",
+    "sha256": "b7e938bf1eed23c29ac69895b2b06724ae7625c67afd9a838d27bad7e43b0c8f",
+    "size": 11961
+  }
+}

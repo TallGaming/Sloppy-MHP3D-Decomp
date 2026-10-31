@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_link_outputs",
+  "scope": "invented bare links only; no game matching or toolchain lock",
+  "family_profiles": {
+    "relative_path": "config/compiler-families.json",
+    "size": 46770,
+    "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab"
+  },
+  "source": {
+    "relative_path": "bench/compiler_family_smoke.c",
+    "size": 229,
+    "sha256": "4fae81ae773148d74eb76914f823cd3f4946ff498e76eabb5c2b21db39d63702"
+  },
+  "layout": {
+    "relative_path": "bench/synthetic_link.ld",
+    "size": 616,
+    "sha256": "d4a7a44addfd7f70d88b09fe9d6058e21058d700b1bafcebd10cd373eba1ab55"
+  },
+  "linker": {
+    "relative_path": "toolchains/pspsnc_1.2.7503.0/pspld.exe",
+    "size": 339968,
+    "sha256": "46e6068518d96fd8b3d7ffe3e7ab0f1aa1c7e85f580a9f32de0aa65ac7daf534"
+  },
+  "support_files": [
+    {
+      "relative_path": "toolchains/pspsnc_1.2.7503.0/demangle.dll",
+      "size": 167936,
+      "sha256": "604a24a0c72e9307fe68fd3b106a168dfb9914758f90c4070b1a6796a4b8de1c"
+    }
+  ],
+  "native_windows_dependencies": [
+    {
+      "linux_path": "/mnt/c/Windows/SysWOW64/kernel32.dll",
+      "size": 666016,
+      "sha256": "1267d92a50e9b09453b8ec3ade992522172a8cb90e0e0b448c1c5cd724ca98cf"
+    },
+    {
+      "linux_path": "/mnt/c/Windows/SysWOW64/kernelbase.dll",
+      "size": 2367920,
+      "sha256": "c375fd3de134c804fdecc8e03d98d9ffac8d79eb90e51859ee7bce905d4d209d"
+    },
+    {
+      "linux_path": "/mnt/c/Windows/SysWOW64/ntdll.dll",
+      "size": 1732464,
+      "sha256": "f9e51073b18d8b3e8f94880b994b5fcc041e5a9ce28c6d9210fd19ce0d5bc88f"
+    },
+    {
+      "linux_path": "/mnt/c/Windows/SysWOW64/version.dll",
+      "size": 28424,
+      "sha256": "2f4e7f80be20df3ccaedf313e0c335e81c909bd968d6ddc53d4484a57ea65e64"
+    },
+    {
+      "linux_path": "/mnt/c/Windows/SysWOW64/shell32.dll",
+      "size": 6237928,
+      "sha256": "78c64e9312eabe44ab29999e018e15768b13c7bfda27e5b8c7076cc00e439052"
+    }
+  ],
+  "windows_host": {
+    "version": "10.0.19044",
+    "release": "10",
+    "dependency_scope": "direct PE imports VERSION/KERNEL32/SHELL32 plus KERNELBASE/NTDLL; not an exhaustive Windows installation snapshot"
+  },
+  "runner": "wsl_native_windows_interop",
+  "windows_project_root": "<project-root>",
+  "entry_symbol": "family_smoke",
+  "text_address": 142622720,
+  "optimization": [
+    "-O0"
+  ],
+  "profile_ids": [
+    "psp_gcc_1_7_1",
+    "psp_snc_1_2_7503",
+    "mwccpsp_3_0_1_219"
+  ],
+  "common_link_flags": [
+    "-comment",
+    "-e",
+    "family_smoke",
+    "-Wall",
+    "-Werror",
+    "-t"
+  ],
+  "command_template": [
+    "{linker}",
+    "-comment",
+    "-e",
+    "family_smoke",
+    "-Wall",
+    "-Werror",
+    "-t",
+    "-T",
+    "{layout}",
+    "-Map",
+    "{map}",
+    "-o",
+    "{output}",
+    "{object}"
+  ],
+  "no_libraries": true,
+  "no_link_outputs_observed": true,
+  "timeout_seconds": 20,
+  "prelink_evidence": [
+    {
+      "relative_path": "evidence/bucket-03e/native-linker-long-help.json",
+      "size": 2754,
+      "sha256": "fc010c94cb301bd737a63488206e3505768e8d9e53ac6bf6578a323805770903"
+    },
+    {
+      "relative_path": "evidence/bucket-03e/prelink-object-inventory.json",
+      "size": 9833,
+      "sha256": "5f5f0e7089af05d5d523cdfc8f9a5cd77db84d5b15de497184c8b933e71d30da"
+    }
+  ]
+}

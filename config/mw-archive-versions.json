@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_matrix_target_scoring",
+  "no_matrix_target_scores_observed": true,
+  "scope": "eleven installed Metrowerks PSP builds, unchanged natural C++ archive candidate, fixed O2; no toolchain lock or game-match credit",
+  "archive_profile": {
+    "relative_path": "config/archive-key-experiment.json",
+    "size": 1902,
+    "sha256": "30b5372dab0d1e2fb9dc0ec4436ca0e78af1922728c5a421499a66e2a4cc5188"
+  },
+  "compiler_candidates": {
+    "relative_path": "config/compiler-candidates.json",
+    "size": 12142,
+    "sha256": "9ba0d75472c7a1ceb45ffdbc46c50d3ffa119c3315be0e93c2f9f8ada4099147"
+  },
+  "historical_control": {
+    "relative_path": "evidence/bucket-03i/archive-key-run-1.json",
+    "size": 1154,
+    "sha256": "e937d49b28b94694f7fa8b1c67db88a8c229ec1394f903a03cb6cc4815509e59"
+  },
+  "common_flags": [
+    "-nostdinc",
+    "-lang",
+    "c++",
+    "-c"
+  ],
+  "optimization": [
+    "-O2"
+  ],
+  "declared_trials": 2,
+  "source_attempts": 1,
+  "versions": [
+    {
+      "id": "mwccpsp_3.0.1_121",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_121.tar.gz",
+        "size": 1140246,
+        "sha256": "44836bb4d19fbe216b55fbd638420c000f7dd373c84493de0e732e85f81656af"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_121-help.txt",
+        "size": 31098,
+        "sha256": "802a02d282f2a6941803554313a8bc0759ad9ee32e9b33e201b91db812a326c3"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_134",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_134.tar.gz",
+        "size": 1143144,
+        "sha256": "a4a00c2450ee2b6f7be29fc73470446994fcf2b1b1003b8ac34568f3358e1c99"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_134-help.txt",
+        "size": 31584,
+        "sha256": "e8e5cd0e227b1a5a299d49b5b9110c5a6667df22e7576cdea60069f64be30a14"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_139",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_139.tar.gz",
+        "size": 1161921,
+        "sha256": "932bae1cdd95df8e1c593af14c19c90c21ad8e2662d6cc5e537269543d8bdd8f"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_139-help.txt",
+        "size": 31584,
+        "sha256": "9f526c44db72a9d3fad73dd20a11d1cccd1e23d26bf379baa13d91e16c940027"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_147",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_147.tar.gz",
+        "size": 1404441,
+        "sha256": "7b9c917d50f804617eb50897cb5b68e1f287f6f676f28078c04a9054b2e4586e"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_147-help.txt",
+        "size": 31584,
+        "sha256": "409843f8347fb0317862d71fdfd0999b1d257fced79ca7b7c19c45de8a8da4a0"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_151",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_151.tar.gz",
+        "size": 1404913,
+        "sha256": "168ee268ebd9a9dc756886c90b4fdd577b13b57ecad025c8b7d98acf47d3f76f"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_151-help.txt",
+        "size": 31584,
+        "sha256": "31e85ce6a35df6082a5997c0ee890f41305a20c00c32b716ae8b75e23a46195b"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_180",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_180.tar.gz",
+        "size": 1412596,
+        "sha256": "2d4ff76e4e5c9bd938dbc627e4219583d6119bc4af30548df43e06221ab7b32b"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_180-help.txt",
+        "size": 31584,
+        "sha256": "42ad4222076c11070d419827cbeffdfe04fcf4fe46ecf855eabcec64658228f0"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_192",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_192.tar.gz",
+        "size": 1412557,
+        "sha256": "e68e0a281f90e0c5a96cd04defe01eabfad4b5592807bba983495fa07c1d55b3"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_192-help.txt",
+        "size": 31584,
+        "sha256": "3603ca26bb5524dd3f012141388da7df8b3ef441ced4de5c3d52a9459fd30a1e"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_201",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_201.tar.gz",
+        "size": 1412685,
+        "sha256": "1bf4b06615f56e6ca5b78287e8fab5c7737f5cd5766d1df052829d737928dbc8"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_201-help.txt",
+        "size": 31584,
+        "sha256": "58463edd63cf778548749b1fe5e22ebda5150233c3728205fad58af098fcb70d"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_205",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_205.tar.gz",
+        "size": 1412718,
+        "sha256": "ace61d4641fcdff55c08b7560c95915b20243f0f18023c3d4ce99fe37c5cdb00"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_205-help.txt",
+        "size": 31584,
+        "sha256": "6c093ecae67c2c9b9c589c3d8233d52d876d071d2499593d68bdb01d54d04853"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_210",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_210.tar.gz",
+        "size": 1412756,
+        "sha256": "a8a0bf3a0ec3545f6578717516aad0f262a40dd1538a6e462b77efc29e79a969"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_210-help.txt",
+        "size": 31584,
+        "sha256": "43d204233821b1a7e28c5c880be39ebec9e0b17cf700b9bfe58e556b0adba03d"
+      }
+    },
+    {
+      "id": "mwccpsp_3.0.1_219",
+      "archive": {
+        "relative_path": "toolchains/downloads/mwccpsp_3.0.1_219.tar.gz",
+        "size": 1414150,
+        "sha256": "81a2a8664d779901f6fa2f298b663b4b0feeb1d7f6613fd14531f51e66926d78"
+      },
+      "help": {
+        "relative_path": "evidence/bucket-03/mwccpsp_3.0.1_219-help.txt",
+        "size": 31584,
+        "sha256": "539587cda84463e05efa58667977ee77a81ac8238f03b3ac0d09cf05be248ce6"
+      }
+    }
+  ],
+  "preserved_inputs": [
+    {
+      "relative_path": "config/address-reuse.json",
+      "size": 1509,
+      "sha256": "614238f14ac02863dec2821e9b9ade3d002e6946a3116b494e9b758e1864f5f1"
+    },
+    {
+      "relative_path": "bench/address_reuse_direct.cpp",
+      "size": 1058,
+      "sha256": "9def28de2b740f255cc379e7468f54dcdbbe3be367efd442170d7ae84dcff3ae"
+    },
+    {
+      "relative_path": "bench/address_reuse_grouped.cpp",
+      "size": 1200,
+      "sha256": "04662faba3e8e68506928bb2d2623d25cf5e6a93f8f9fb1bde3e3dd223908094"
+    },
+    {
+      "relative_path": "config/gcc-versions.json",
+      "size": 104543,
+      "sha256": "fdb48bb1281b3705d1a3e47ffeeb4f958b43d8e6c905ab9c060a9963979c7e4d"
+    }
+  ]
+}

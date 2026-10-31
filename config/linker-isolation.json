@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_isolation_outputs",
+  "scope": "SNC invented fixture only; exactly default versus minimal explicit linker layout",
+  "baseline_experiment": {
+    "relative_path": "config/synthetic-link.json",
+    "size": 3423,
+    "sha256": "dc0017e2a922011fa51c59ab477baab74d805481d6ec56e53ff156b0da31094f"
+  },
+  "minimal_layout": {
+    "relative_path": "bench/synthetic_link_minimal.ld",
+    "size": 306,
+    "sha256": "ff22d32c21f218aad04f04f78b8cfc355186c9ac62d9bfd6b420416e867a1f8d"
+  },
+  "compiler_profile_id": "psp_snc_1_2_7503",
+  "optimization": [
+    "-O0"
+  ],
+  "entry_symbol": "family_smoke",
+  "common_link_flags": [
+    "-comment",
+    "-e",
+    "family_smoke",
+    "-Wall",
+    "-Werror",
+    "-t"
+  ],
+  "cases": [
+    {
+      "id": "default_layout",
+      "expected_entry_address": null,
+      "command_template": [
+        "{linker}",
+        "-comment",
+        "-e",
+        "family_smoke",
+        "-Wall",
+        "-Werror",
+        "-t",
+        "-Map",
+        "{map}",
+        "-o",
+        "{output}",
+        "{object}"
+      ]
+    },
+    {
+      "id": "minimal_explicit_layout",
+      "expected_entry_address": 142622720,
+      "command_template": [
+        "{linker}",
+        "-comment",
+        "-e",
+        "family_smoke",
+        "-Wall",
+        "-Werror",
+        "-t",
+        "-T",
+        "{layout}",
+        "-Map",
+        "{map}",
+        "-o",
+        "{output}",
+        "{object}"
+      ]
+    }
+  ],
+  "compile_once_per_trial": true,
+  "same_object_for_both_cases": true,
+  "no_isolation_link_outputs_observed": true,
+  "no_libraries": true,
+  "runner": "wsl_native_windows_interop",
+  "trial_count": 2,
+  "timeout_seconds": 20,
+  "default_entry_policy": "observe unique complete function address; require ELF entry and section/PT_LOAD mapping to agree",
+  "limits": "layout cases do not isolate individual script clauses, address effects or the historical game linker"
+}

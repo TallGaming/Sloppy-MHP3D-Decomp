@@ -1,0 +1,1140 @@
+{
+  "schema_version": 1,
+  "status": "profiles_frozen_before_target_scoring",
+  "scope": "three compiler families, original source only, four whole-bench optimization levels; no match credit",
+  "baseline_source": {
+    "relative_path": "bench/compiler_probes.c",
+    "size": 4413,
+    "sha256": "d5d588c184c7c95a86bb3772e760f9251d33e3e4aabf92dfc0449c6ddc7c7a95"
+  },
+  "probe_manifest": {
+    "relative_path": "config/compiler-probes.json",
+    "size": 8224,
+    "sha256": "2a3a7783a11704c870311470cf851434ec1e0a660af29787db48178b2c58ffbc"
+  },
+  "reference_lock": {
+    "relative_path": "config/reference.json",
+    "size": 1553,
+    "sha256": "1fcec4f311797665098137db0c3257a1c6eab77730bec05db6e73f4b513c94a6"
+  },
+  "existing_candidate_config": {
+    "relative_path": "config/compiler-candidates.json",
+    "size": 12142,
+    "sha256": "9ba0d75472c7a1ceb45ffdbc46c50d3ffa119c3315be0e93c2f9f8ada4099147"
+  },
+  "profiles": [
+    {
+      "id": "psp_gcc_1_7_1",
+      "family": "GCC",
+      "mode": "gcc_backend_native",
+      "version": "gcc 3.3.3+allegrex-2.2.2-psp-1.7.1",
+      "status": "runnable",
+      "compiler": {
+        "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/cc1",
+        "size": 2628138,
+        "sha256": "837c7613c953d75b279a6665ebb77ced7032e980653630dfc7d9f2cae1c5a266"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/cc1",
+          "size": 2628138,
+          "sha256": "837c7613c953d75b279a6665ebb77ced7032e980653630dfc7d9f2cae1c5a266"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/cc1plus",
+          "size": 3144847,
+          "sha256": "8011b6481bb229a6ece67d310608b54faa201200d4f47a2fc01adeefbb82205f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/collect2",
+          "size": 93945,
+          "sha256": "1868d962503c449c2a848a6719d0e48ffa74802c3de712a81196adb98ec1e38d"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/crtbegin.o",
+          "size": 2236,
+          "sha256": "0f9654b252b4c1682df103ad3ccba2b3c70a7c8aee7366d2454aef4ccfb6bd2b"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/crtend.o",
+          "size": 1464,
+          "sha256": "0fde537ee43aaa4b0d6272733f1e88ab96b109f75fcaa50338b2616f9c437e85"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/crti.o",
+          "size": 835,
+          "sha256": "c42d049e3b4a96fb010f0d6e064d1e68c3165678ddb6402afc4c952e2c20812e"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/crtn.o",
+          "size": 799,
+          "sha256": "4c7966a05964b79659c556ef02ef721d95f7493bfb5b0bf87cc2153a263eecc3"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/README",
+          "size": 750,
+          "sha256": "32baa94efdf4fb418c20321f14a1b66982a6cd3c2b5bc8fbfbe438f687c528d6"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/fixed",
+          "size": 10,
+          "sha256": "2cd8ec3de6a07e1fd39676100db57ba62372e820c19812fee55899f65746e192"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/float.h",
+          "size": 5372,
+          "sha256": "60c58d253a06e6f121e82f3f6afe686458230414530d6ef4d9f9f8cbbd42ae78"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/iso646.h",
+          "size": 1440,
+          "sha256": "5e00d8022ef15d8fe7312b114abf3f7274bf44cb4edd320caa3a3c85878fa36a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/limits.h",
+          "size": 2745,
+          "sha256": "64196cc602b945f7ab14da1118f63585f284b5192db2160a950e93456107fc66"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/stdarg.h",
+          "size": 4325,
+          "sha256": "75ef1250b3c4b72602e9fb3d4dc4db2c1ca49244824684eb254b0735b78872c2"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/stdbool.h",
+          "size": 1612,
+          "sha256": "130ff7e93a3efb0e6ba608a45c501e7a1138f16aeac3989fcfb384388fd3d80a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/stddef.h",
+          "size": 12695,
+          "sha256": "d46c55c3760cc6120042b58d8ae006d63efc710cd355751f2b130e27208a56c7"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/syslimits.h",
+          "size": 330,
+          "sha256": "22dd0ab81baadd5a8d455b445855f341d419c7b0267beca235de00b7ec78e529"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/unwind.h",
+          "size": 8797,
+          "sha256": "73aa6c40fd458db36bc36b694fb7794a96158eb0a57c613c16bd32e27a883836"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/include/varargs.h",
+          "size": 139,
+          "sha256": "f9acb21973be5764aa2fd689c941ad963c1ecdd133f3a6529f279803135f8268"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/fix-header",
+          "size": 166030,
+          "sha256": "bb4a1bf430e3e81f36fe3e7deaf886e861b14fec25b8a8ccbc0736700236af2a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/fixinc.sh",
+          "size": 12891,
+          "sha256": "e9298773d4662bae1a9641b444f395e008eabafe23049e99be9320136f8e4f04"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/fixincl",
+          "size": 132151,
+          "sha256": "7d7a9f643ee5fb5e482edab7a8d4f65962b548d125c5f6645ae22f2768e18e44"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/fixproto",
+          "size": 10582,
+          "sha256": "67df195623923211c1d57488686517be0080f948cd4cea9ae31b20ab7f55514c"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/gsyslimits.h",
+          "size": 330,
+          "sha256": "22dd0ab81baadd5a8d455b445855f341d419c7b0267beca235de00b7ec78e529"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/README",
+          "size": 750,
+          "sha256": "32baa94efdf4fb418c20321f14a1b66982a6cd3c2b5bc8fbfbe438f687c528d6"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/float.h",
+          "size": 5372,
+          "sha256": "60c58d253a06e6f121e82f3f6afe686458230414530d6ef4d9f9f8cbbd42ae78"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/iso646.h",
+          "size": 1440,
+          "sha256": "5e00d8022ef15d8fe7312b114abf3f7274bf44cb4edd320caa3a3c85878fa36a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/limits.h",
+          "size": 2745,
+          "sha256": "64196cc602b945f7ab14da1118f63585f284b5192db2160a950e93456107fc66"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/stdarg.h",
+          "size": 4325,
+          "sha256": "75ef1250b3c4b72602e9fb3d4dc4db2c1ca49244824684eb254b0735b78872c2"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/stdbool.h",
+          "size": 1612,
+          "sha256": "130ff7e93a3efb0e6ba608a45c501e7a1138f16aeac3989fcfb384388fd3d80a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/stddef.h",
+          "size": 12695,
+          "sha256": "d46c55c3760cc6120042b58d8ae006d63efc710cd355751f2b130e27208a56c7"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/unwind.h",
+          "size": 8797,
+          "sha256": "73aa6c40fd458db36bc36b694fb7794a96158eb0a57c613c16bd32e27a883836"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/include/varargs.h",
+          "size": 139,
+          "sha256": "f9acb21973be5764aa2fd689c941ad963c1ecdd133f3a6529f279803135f8268"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/mkheaders",
+          "size": 3171,
+          "sha256": "f7dc455e68f555a91c1f9672b50c091c59144228bdf93368ed5ea1f5a08d88a4"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/mkheaders.conf",
+          "size": 255,
+          "sha256": "e7f29d8b04237336490baf6b295841697992232100443d1cad7e5409ea14d501"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/install-tools/mkinstalldirs",
+          "size": 726,
+          "sha256": "6e2b452d872649d719d09b9979387d825c04672fb86d6c0072acb21321122844"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/libgcc.a",
+          "size": 839252,
+          "sha256": "fe3868da7e250944727c7705da069837305eeab72ce5feadce559877c9c4b526"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/gcc-lib/psp/3.3.3+allegrex-2.2.2-psp-1.7.1/specs",
+          "size": 4318,
+          "sha256": "15f76aef93b26293a49c673b5e263d19e7134cce921099d65aa35cabefc75308"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/lib/libiberty.a",
+          "size": 767872,
+          "sha256": "2c44b634f012ecefdde5941dd71e890f556692c7389e0299907798c6ebcd51ac"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/ar",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/as",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/c++",
+          "size": 93747,
+          "sha256": "475f471cc34acd4f2249ca926b544de1421b6db25b52f813cc5acf2cb44e0d33"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/g++",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/gcc",
+          "size": 89683,
+          "sha256": "f3badc76e54138a6bab444f8b140d389e04c95ae286ea5fb88d10b3e61730831"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/ld",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/nm",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/ranlib",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/bin/strip",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/_ansi.h",
+          "size": 2332,
+          "sha256": "6e162f95296e655aacaa87a932cdbd4058e63eddeaa1bd2c49469a4adce48350"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/_syslist.h",
+          "size": 720,
+          "sha256": "546b13e022a2e53bfad0138e9294d92210773c9a7a61ee2d4ffb152ed4a6396a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/alloca.h",
+          "size": 405,
+          "sha256": "2d967c8d4adcd11885e47e2c9c046e52d30670672dc10ed9d1e329d9dae902b0"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/ar.h",
+          "size": 2958,
+          "sha256": "d7aad21a7db658f45925014ea2ffd6cb7ba3d40fad05c9a00e77bfe912577ae3"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/argz.h",
+          "size": 1233,
+          "sha256": "820b9e63de9aab47eb1194fbe92e26c00b8bc15494194e250d603a7c72054bfc"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/assert.h",
+          "size": 485,
+          "sha256": "ee9626082870fce9ddbfb31810843f9bf229087a574c5b2177b958192720bb06"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/ctype.h",
+          "size": 1934,
+          "sha256": "a4383825791612303170b4eeffa05ff36e567c4a79399113a51f3db30b8fffc4"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/dirent.h",
+          "size": 234,
+          "sha256": "0738555e0528c5c576953abd39f397a561261831b96f5ba6b392e2997cf09fea"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/envz.h",
+          "size": 781,
+          "sha256": "de0aaab946479a0d95063cfbfcab5793487a5a0b19e051f7be3c3319c351b347"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/errno.h",
+          "size": 174,
+          "sha256": "53d288d669b43f2341048bf58bc5e6e46a5cfbe68c6d296a3b2e2f1378ac3ca8"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/fastmath.h",
+          "size": 185,
+          "sha256": "7fb7ff119150be066f9e06ea4afa62c4fd13def8a15d3dde3968d57d7f82ba66"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/fcntl.h",
+          "size": 23,
+          "sha256": "637889253928e98bc028dbdcd58560492aed8e981eff349c43a8e7e6a45f75f5"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/grp.h",
+          "size": 3429,
+          "sha256": "a0f6726f52b9a2222829fbd38e09fad1bcee613d16e64c751863c9f39ab05c69"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/iconv.h",
+          "size": 2114,
+          "sha256": "202bb651743bec4a555145340311087d670907e5e8b0981c9e165869a29cb6fc"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/ieeefp.h",
+          "size": 5069,
+          "sha256": "01b35fc8fa1c8305a4960f41ed33f2210a7e635c42e0ad6bbb47d271aa4aafd8"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/langinfo.h",
+          "size": 4510,
+          "sha256": "fcc6a8d5f0ef6f79eed4fcad59a968b2167eccaceb78c4d90f6ce898445b8828"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/limits.h",
+          "size": 3484,
+          "sha256": "e9228d48e1eb15715ae6ca763f15f39020f9fc01011626d128f647cca27db10d"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/locale.h",
+          "size": 1111,
+          "sha256": "0e225d69c21a16ac641cf4991c472278964be3074d70d73fef2b717c3b9ed882"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/ansi.h",
+          "size": 48,
+          "sha256": "b8920447822ad8f3d5698a3fd70cd0c72d28c1b4d0a57f849ce6e6ccdca2ce72"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/fastmath.h",
+          "size": 2829,
+          "sha256": "d39269df83b76b04be79c158b737929357bbfdab2cadd9ee0aeada26bf2c6abf"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/ieeefp.h",
+          "size": 5513,
+          "sha256": "ca66d9e2bd31cedc7db7f7d9e64aa7e4713be78a92869fe37f806030293180e0"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/malloc.h",
+          "size": 138,
+          "sha256": "c6e33eb2fa8cf9038cf4114d87df62468b476caffb045f33949ba97fcaf78a79"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/regdef.h",
+          "size": 572,
+          "sha256": "4dedb79c3b030a880a41a46b46173a7ce6ee6108cfee609ec6ff71149660d661"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/setjmp-dj.h",
+          "size": 932,
+          "sha256": "b5660d70da82f994b0a80d0b1f5c7b359596858ed6c769a8acfe6cd73c544f93"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/setjmp.h",
+          "size": 4153,
+          "sha256": "8f507f22271e997f7e1d1b312f86ddce127f2b83a35a1843e3f40a5a7f51b7aa"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/stdlib.h",
+          "size": 138,
+          "sha256": "43552e520d412993325ba62cb496839cd03fd46b0df67149a5ccbe1b95c45fdd"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/termios.h",
+          "size": 29,
+          "sha256": "d6e16ee56b728aff179afd72ac18247320a64c124e43060a9d96261be2ea462c"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/time.h",
+          "size": 325,
+          "sha256": "e05cd990dfb99eb930a89ff127bde80fe5cf27dffb5f48552aa660aff19f5365"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/machine/types.h",
+          "size": 1083,
+          "sha256": "1816cb4a3fe1d6fd3d672f8d2cb6a937522313c9b222b3ebef1875c64e036ff0"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/malloc.h",
+          "size": 4292,
+          "sha256": "a9e087132920202310a3ff0e72588706c9da93e3169c8b3f905f1d3ae716a64f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/math.h",
+          "size": 11788,
+          "sha256": "bcf4090a6ad7f5bdc290c2395a555b62e45cbbe08c2c143f978d83d3e6cc9fac"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/newlib.h",
+          "size": 1335,
+          "sha256": "31529123e4d7218557827d16ef455499c6c2c6e30193ba60b4c7979d5c5ce59a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/paths.h",
+          "size": 121,
+          "sha256": "48edeaa8848b5fddfb7d708d4253e7cc19acdede16b1284e7080a969606dd004"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/process.h",
+          "size": 1511,
+          "sha256": "244a8607a11e4ed41c0a27caa8da3bba722e03a9c5214359d8cbfd0dddfd6970"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/pthread.h",
+          "size": 9714,
+          "sha256": "412b7606cd2de64de76583f18ffc1aa2ba502646bcaeaa9981d9baf2687444b4"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/pwd.h",
+          "size": 2837,
+          "sha256": "6be9ed0fd578bfc2391e4c0f3fd7ab28bbefff41fabde15f8c4705f9f2cb1bfe"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/reent.h",
+          "size": 3987,
+          "sha256": "062526b975122d0ace4b6134114092b2ba62a5b94fe294f21c611b88183ffe2d"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/regdef.h",
+          "size": 220,
+          "sha256": "e889cdb89b2b0c335eeaff98d11bd5cb455118c798d66d6239130860558197d9"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/search.h",
+          "size": 1286,
+          "sha256": "8518a604aa8e0f7835c0d336b4c013ef85aff40b4ea2466dac64d2064eb8b931"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/setjmp.h",
+          "size": 269,
+          "sha256": "d2449ee074fc378cdc88c8e9281d1788598f8befef53defb63265d65b12c75c3"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/signal.h",
+          "size": 601,
+          "sha256": "45de8d456cf4ee47e2d9c6c7119334edcb926272e3435a6cd1a6ef6a3a85fc72"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/stdint.h",
+          "size": 46,
+          "sha256": "c05a9ae09d903ff7ce03b51421396a488f49f5e3ae93340e8b0cf443d5f7d4b4"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/stdio.h",
+          "size": 14121,
+          "sha256": "7138d0d8483d643fae4c62ed39defc32911ade0cf22a51ec24c04b7cc1a14249"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/stdlib.h",
+          "size": 8112,
+          "sha256": "3d3e4b1a32792ff1c84b7d5e68b17887cba5e6a6b7fe08d938d033e6e5e00054"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/string.h",
+          "size": 3055,
+          "sha256": "47cf362e4d0394308d36b59690885c4919c8157ab815c6b227aead0a3fe5cfbc"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/_types.h",
+          "size": 941,
+          "sha256": "f1b95ce84cafb9fe2cae5945261424973bed891f459b78e7e73ff0568cd04a68"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/cdefs.h",
+          "size": 4315,
+          "sha256": "952ef3a9eabbe132503a696a27e5b96e2e0c57dcf624568c42e35b0af50c3256"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/config.h",
+          "size": 4214,
+          "sha256": "4524a82440b7702cffe0022258f03296bfd7985d8020c3369d11b891d892e5ca"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/dirent.h",
+          "size": 513,
+          "sha256": "c09892eee56fab9b2f22f3fb6f0417452fa775417a7051abc5805a43a0cfd858"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/errno.h",
+          "size": 6600,
+          "sha256": "a30e330b2cff371157e46ecc51e4d669e2af0b444e37337d09096ca873efaa59"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/fcntl.h",
+          "size": 5938,
+          "sha256": "113bc1e130777e71348cd36641ad43e37201a5f8cf981806b3388f4d35dbcb8f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/features.h",
+          "size": 2867,
+          "sha256": "407d599b47f77d24896b033ac08fe3fd5fb0d787c324b3c3a8338405763a7006"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/file.h",
+          "size": 24,
+          "sha256": "c4e08fdb66f877ddc18fc704b7127aea39766f08593fa833d7f385beea0b5a35"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/libc-module.h",
+          "size": 308,
+          "sha256": "cf13b380e5ef321a5055d108545cffc85a03fb3e5a2f77c36931aa26d7266ec1"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/libc-thread.h",
+          "size": 545,
+          "sha256": "c7594fb2eb0e446798dbc110ba5504649dd386971e56832feb86ed48c18b6e35"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/lock.h",
+          "size": 664,
+          "sha256": "f191f1b647ff1bdaac2b3b555c622c6df5de185b1a3397b4eefbd664a0b6f366"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/param.h",
+          "size": 627,
+          "sha256": "5a33289db21869d9b4df2adf947c21a23a3e5ea404ebc7f01bb2b36703c01c72"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/queue.h",
+          "size": 15264,
+          "sha256": "925e69ca46c2fa89577be2ff766a23be8533a82d141d8ca884ed27d61010b6e3"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/reent.h",
+          "size": 25038,
+          "sha256": "1ab7a86faa6c67f467d6b508f105fe9b64b81ef2cb3f2b139457fa9984af477f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/resource.h",
+          "size": 307,
+          "sha256": "da3d65d5d2fc0d03827d6c6563d10b4353f46584c279bac2c9a9fec81ece9d14"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/sched.h",
+          "size": 1823,
+          "sha256": "c110f3fa2379aa813ed48c3407adb6087a48af02b0814024447ece584d6f22f4"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/signal.h",
+          "size": 10352,
+          "sha256": "e8d3dc03eb1e60d189a71bba66d8726946d912776bff419885150ffa4cbb5fde"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/stat.h",
+          "size": 4359,
+          "sha256": "7595604ecb685132b3b150309b5fd59a2bfafa1fba79adfb0de79620eb3c8f6b"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/stdio.h",
+          "size": 306,
+          "sha256": "110718ecd8feeeea89997d8024e048720aa82dbf19091cbec3d1b75698e3f824"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/syslimits.h",
+          "size": 3211,
+          "sha256": "46bf581e256a121c62211ebdfcbd17feac1368c6e28052969ef81ce77472238f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/time.h",
+          "size": 2390,
+          "sha256": "7113b9123795081b3016524451df05ad6538829e22a4467763fd6f85212d9a57"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/timeb.h",
+          "size": 752,
+          "sha256": "6677d664e8b729a484fed4c07e7a07d89e965cc3eda1cf1803ba4b7c4148d30e"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/times.h",
+          "size": 548,
+          "sha256": "b485ec0d58654b46379669d0e76905a88ecdaa8f996593c4197ff6cb994a948b"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/types.h",
+          "size": 10154,
+          "sha256": "6762ef2e8f04750660d8fe94a97d47749bc2316ac33359b80cf9e22138e021a8"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/unistd.h",
+          "size": 11530,
+          "sha256": "017c257cbb0333edf6dc60113230af3b26fb0d548822e5b5491cf42e2115996d"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/utime.h",
+          "size": 363,
+          "sha256": "2bcd7d80d018eb7ef8912394fa6c84da8a2212fba9561db9e0b03d9ee8e40d34"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/sys/wait.h",
+          "size": 937,
+          "sha256": "bb67126e824edcd4900052735e20eb63eb4eb9b6155330fd9e57d07ab518ea17"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/termios.h",
+          "size": 92,
+          "sha256": "fc13c1c649a2530491bed09e072743a931822b0faa826efb34e98bafd7373fa8"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/time.h",
+          "size": 6459,
+          "sha256": "72560fea242402a53d08fdbf7b132cb3a1a04bbbb9b385b74919ad0c5d765830"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/unctrl.h",
+          "size": 2178,
+          "sha256": "f99d77491831a723840c4e604835cbe40f07b04aaad6f6dc66214425cd85ab4f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/unistd.h",
+          "size": 89,
+          "sha256": "19f31553182c4d649dd0d6301ffdbb5b4d7903b28373dd070a553798b41f524f"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/utime.h",
+          "size": 185,
+          "sha256": "be672799c1b20fc35446ee2bf6b3c800677f2168983a1c99b366cf8036dbc418"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/utmp.h",
+          "size": 90,
+          "sha256": "0cf902b1dcfa51852a3127a012ef4e77182510b0c5c89dab89d522656366e237"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/wchar.h",
+          "size": 2734,
+          "sha256": "0b96d2f83cc1170f9cdeb5c77d3d15108020bd774a144d2384cd66f8c403e87a"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/include/wctype.h",
+          "size": 988,
+          "sha256": "f5dcb8ce498433d68da69d8b0036902b2f04ecac5bbfff0dc56bc4c46dedf8da"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/crt0.o",
+          "size": 14884,
+          "sha256": "fad75767671036a9ab23df98ebf7ccf8b5b29426ad6f1283b9281dda8a493d78"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.x",
+          "size": 7927,
+          "sha256": "c5f815b65ca09ff9f32e048bed38caf336f6d9d669623a7ad622b0faab25caba"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xbn",
+          "size": 7910,
+          "sha256": "bb13fba371aa6103cd31ab875fcb657c9169e6ee2fca9837f8a8f65561769bcd"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xc",
+          "size": 7474,
+          "sha256": "b33e194a367e2d40fe9f9de3cf09f9e6ca2e4bbd1011fdc394da79f329eb62ca"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xn",
+          "size": 7927,
+          "sha256": "232b4be65c9892e1604852b99160fb94adf30aaef3c2213b4080b66db4163c75"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xr",
+          "size": 5366,
+          "sha256": "b9a4b919ee229c569642ed142a6424f2072a8dcc10307a67bbe24d08eee696a1"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xs",
+          "size": 7692,
+          "sha256": "363c30d71fc4d7dfcc13cd1a8a324ab6e1d47a0fe807ff1911537fcdb844ce31"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xsc",
+          "size": 7256,
+          "sha256": "1127879e40bb66b0f9fca223f72b9c2390562e2cba84f0d9626948c9d9b9715e"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/ldscripts/elf32elmip.xu",
+          "size": 5412,
+          "sha256": "5f1a7cf3cfba88a4caeb7690f21852963a6afab3184d7529b8f836741068d863"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libc.a",
+          "size": 3095762,
+          "sha256": "d40a2d8870a8d2ec1d59f9f4f2120442fe7b15dd11c5c08e09bf661a0a06e67e"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libg.a",
+          "size": 3095762,
+          "sha256": "d40a2d8870a8d2ec1d59f9f4f2120442fe7b15dd11c5c08e09bf661a0a06e67e"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libiberty.a",
+          "size": 750416,
+          "sha256": "8d18fb4800735f29de59215814fe2218b8126f3b778920990a12e05859f75cae"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libm.a",
+          "size": 1866496,
+          "sha256": "bdbe0326f7ffd047c90be91ebb835f5d4a231fe594f090684ff7e959f4a32b3d"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libstdc++.a",
+          "size": 5695090,
+          "sha256": "6f4ae86c0e331ecb99a5839ca0f3f7e1c1145a5eb53a993b6735fa7fb1430d8e"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libstdc++.la",
+          "size": 1319,
+          "sha256": "034bfafde99f6774c3e0d5258e61083b14d5b10a9726aeebcef916002c4ef71c"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libsupc++.a",
+          "size": 386282,
+          "sha256": "8974ced80d38d0f89721e5060441cb7bc049079c965c5a0a22aeab098601c1e5"
+        },
+        {
+          "relative_path": "toolchains/psp-gcc-1.7.1/psp/lib/libsupc++.la",
+          "size": 1299,
+          "sha256": "e9a8865b28066e05783ca7ca51230258e9c087e1f5baf270b0b94ff9a1d62b32"
+        }
+      ],
+      "common_flags": [
+        "-quiet",
+        "-nostdinc",
+        "-G",
+        "0",
+        "-march=allegrex",
+        "-mtune=allegrex",
+        "-mel",
+        "-mabi=eabi"
+      ],
+      "levels": [
+        {
+          "id": "O0",
+          "flags": [
+            "-O0"
+          ]
+        },
+        {
+          "id": "O1",
+          "flags": [
+            "-O1"
+          ]
+        },
+        {
+          "id": "O2",
+          "flags": [
+            "-O2"
+          ]
+        },
+        {
+          "id": "O3",
+          "flags": [
+            "-O3"
+          ]
+        }
+      ],
+      "assembler": {
+        "linux_path": "/usr/bin/mips-linux-gnu-as",
+        "size": 986752,
+        "sha256": "cfd9baa859d4844d903a215858c72caa7da6732c96f8cca88397082eac6d54b1"
+      },
+      "assembler_flags": [
+        "-EL",
+        "-march=allegrex",
+        "-mabi=eabi",
+        "-G0",
+        "-O0"
+      ],
+      "staging": "native Linux temporary directory; exact source bytes and original basename; no macro/header changes",
+      "limitations": [
+        "SDK driver warns about absent pspspecs/pspfixup/psplibgen and is not used for compilation.",
+        "Modern explicit GNU assembler in preservation mode is diagnostic, not the original SDK assembler or a selected game toolchain."
+      ],
+      "archive": {
+        "relative_path": "toolchains/downloads/psp-gcc-1.7.1.tar.gz",
+        "size": 7412657,
+        "sha256": "55d4267b1d74855157501d5fd61ed31b68d961a737306b5831b582a2d58f3484"
+      }
+    },
+    {
+      "id": "psp_snc_1_2_7503",
+      "family": "SNC",
+      "mode": "wibo_driver",
+      "version": "pspsnc 1.2.7503.0 (dev,main @83716 #346325)",
+      "status": "runnable",
+      "compiler": {
+        "relative_path": "toolchains/pspsnc_1.2.7503.0/pspsnc.exe",
+        "size": 204800,
+        "sha256": "b02e70f0319f1309171deeac730e6b821a0a91afb536e65ee61e2a85962621c2"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/BlankElf.exe",
+          "size": 45056,
+          "sha256": "8f22e416d1ece329778726194affa2252e2d3bb859a672fe328922b398edde08"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/PSPDebugger.exe",
+          "size": 3817472,
+          "sha256": "c728269812a0a806634ec78f6a297c728bf6ba0ad90e5ca7eb9bec8f4286f014"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/demangle.dll",
+          "size": 167936,
+          "sha256": "604a24a0c72e9307fe68fd3b106a168dfb9914758f90c4070b1a6796a4b8de1c"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/make.exe",
+          "size": 208896,
+          "sha256": "ebb180b7a44ceccf6587be3c31e397b9e2ab9789bd3c2bf4c4e9f6467d5b0847"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspas.exe",
+          "size": 369664,
+          "sha256": "48feaeb31ba159953d2efc8a4422faaca8e41f0e1ae61c10bce65944b9a403cc"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspcfe.exe",
+          "size": 1691648,
+          "sha256": "092bc36c8208a709dc30af13fc3490a33a746a727dc41a6e64e679934fad191a"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspcor.exe",
+          "size": 983040,
+          "sha256": "36e43e9f098e235a8ed66487e5f1881d230294b3171c73f56b345dc738d64b9f"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspcq.exe",
+          "size": 1810432,
+          "sha256": "761fb5f30a63e7e185a6b4c87c6255e6a89479c1da3d40b005d1c578abf5fef9"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspdemangle.dll",
+          "size": 102400,
+          "sha256": "730fa29c047fb1036d9ed46efd820df98ef3dcbb0553ffad50c5deb19c97e3e4"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspipa.exe",
+          "size": 106496,
+          "sha256": "b975c69975fa70514a86a44ced3ee30f7f5586aed0ea615c9d4dd9ceae35e103"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspld.exe",
+          "size": 339968,
+          "sha256": "46e6068518d96fd8b3d7ffe3e7ab0f1aa1c7e85f580a9f32de0aa65ac7daf534"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspname.exe",
+          "size": 49152,
+          "sha256": "c6d9236d5706b73d3ac5a0e03ae21628718472dbef43093eb0ca33d8bbdc753f"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspprxgen.exe",
+          "size": 225280,
+          "sha256": "aa138f8ee994d6bce43a5399f1b22d926cb4fe333e4187c2825a9c9a5165eba2"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/psprun.exe",
+          "size": 89088,
+          "sha256": "7e096f9e5b2c1579c180aed5293e1f47a0194869f8b8c8a8060b9f5bb00b6979"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/pspsnc.exe",
+          "size": 204800,
+          "sha256": "b02e70f0319f1309171deeac730e6b821a0a91afb536e65ee61e2a85962621c2"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/psptm.exe",
+          "size": 2674176,
+          "sha256": "7e403639398aa602f950576a43926ef343b1329d9cf54c1e754ec8dd35d23060"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/psptmapi.dll",
+          "size": 139776,
+          "sha256": "a251e72ad677d07d33067d94bb63fcb067080e77d3173cc08893813d440143f9"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/psptmapix64.dll",
+          "size": 180224,
+          "sha256": "f4599440a31b593f1c14401f66608250940aeaca4b75938850851820c4b05c86"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/sn_autoexp.dat",
+          "size": 953,
+          "sha256": "f0e3eded34928a1be36c84c89250436559300570a1d3c7580928b24d1b8e7662"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/snarl.exe",
+          "size": 188416,
+          "sha256": "223db7775d5f6974f012cf87d5b5d24860964a962d2f0f98bebeeff4ed37fc8d"
+        },
+        {
+          "relative_path": "toolchains/pspsnc_1.2.7503.0/snbin.exe",
+          "size": 620032,
+          "sha256": "e37984eb1f3ae74bdb520f96fad8fe857a79f9a4a5ba7736faf0f3ecdcd8253d"
+        }
+      ],
+      "runner": {
+        "id": "wibo-1.2.0-x86_64",
+        "relative_path": "toolchains/wibo-1.2.0/wibo",
+        "sha256": "13f86a2d618f0dbe67179d349625345eabf9b46450295cb4c904e49f6aff85af",
+        "url": "https://github.com/decompals/wibo/releases/download/1.2.0/wibo-x86_64",
+        "environment": "WSL Ubuntu",
+        "size": 7256672
+      },
+      "common_flags": [
+        "-c",
+        "-G0"
+      ],
+      "levels": [
+        {
+          "id": "O0",
+          "flags": [
+            "-O0"
+          ]
+        },
+        {
+          "id": "O1",
+          "flags": [
+            "-O1"
+          ]
+        },
+        {
+          "id": "O2",
+          "flags": [
+            "-O2"
+          ]
+        },
+        {
+          "id": "O3",
+          "flags": [
+            "-O3"
+          ]
+        }
+      ],
+      "language": "C via .c extension; recorded -# trace shows LANGUAGE_C and mixed+gnu_ext defaults",
+      "limitations": [
+        "GUI help topics fail under wibo; short CLI help and actual invented-fixture trace establish the used documented switches.",
+        "Default SDK include paths are unused by the header-free fixed source."
+      ],
+      "archive": {
+        "relative_path": "toolchains/downloads/pspsnc_1.2.7503.0.tar.gz",
+        "size": 6823980,
+        "sha256": "0d10a4b387e45b62369eea21b6693fc5517335033bf65e65aa7b543a916f4d6d"
+      }
+    },
+    {
+      "id": "mwccpsp_3_0_1_219",
+      "family": "Metrowerks",
+      "mode": "wibo_driver",
+      "version": "Version 3.0.1 build 219; Runtime Built: Aug 24 2006 03:56:49",
+      "status": "runnable",
+      "compiler": {
+        "relative_path": "toolchains/mwccpsp_3.0.1_219/mwccpsp.exe",
+        "size": 2079232,
+        "sha256": "828f9b30b3ae33c7a0202c2baf48aab49884c60e48c5b3daa2436bc3237368df"
+      },
+      "support_files": [
+        {
+          "relative_path": "toolchains/mwccpsp_3.0.1_219/LMGR8C.DLL",
+          "size": 851968,
+          "sha256": "996041141858fd4724ec36add0913755a0067498b93271d7d26e4a1bfa04a561"
+        }
+      ],
+      "runner": {
+        "id": "wibo-1.2.0-x86_64",
+        "relative_path": "toolchains/wibo-1.2.0/wibo",
+        "sha256": "13f86a2d618f0dbe67179d349625345eabf9b46450295cb4c904e49f6aff85af",
+        "url": "https://github.com/decompals/wibo/releases/download/1.2.0/wibo-x86_64",
+        "environment": "WSL Ubuntu",
+        "size": 7256672
+      },
+      "common_flags": [
+        "-nostdinc",
+        "-lang",
+        "c",
+        "-c"
+      ],
+      "levels": [
+        {
+          "id": "O0",
+          "flags": [
+            "-O0"
+          ]
+        },
+        {
+          "id": "O1",
+          "flags": [
+            "-O1"
+          ]
+        },
+        {
+          "id": "O2",
+          "flags": [
+            "-O2"
+          ]
+        },
+        {
+          "id": "O3",
+          "flags": [
+            "-O3"
+          ]
+        }
+      ],
+      "limitations": [
+        "Existing control only; not a selected game compiler."
+      ]
+    }
+  ],
+  "linux_dependencies": [
+    {
+      "linux_path": "/usr/lib/i386-linux-gnu/ld-linux.so.2",
+      "size": 228668,
+      "sha256": "44cb468b7ecf07319cb25c870e9dfb467d1eb3ef0d6c1d468881be24f3a82a45"
+    },
+    {
+      "linux_path": "/usr/lib/i386-linux-gnu/libc.so.6",
+      "size": 2362056,
+      "sha256": "e82552d350754010c5fe81d40a0bbb848d0762636345787c3c868a1263f722d4"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "size": 254864,
+      "sha256": "bda779ea9e9ad234f60315477d7cfd0bdde861cd8ddd9df8cdaf62f18c4cec14"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libbfd-2.45.90-mips.20260125.so",
+      "size": 1438552,
+      "sha256": "b5a74eb1d147ca4668ea7c595c4b245455553944e242bffde602554613702599"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "size": 2190608,
+      "sha256": "85e64f97e348786a8fb4d9f3d52fec289e2fb86bba20f0731dfe61990525e0f7"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libopcodes-2.45.90-mips.20260125.so",
+      "size": 682856,
+      "sha256": "fb98a51a71180d5418b11673f97e63c0e0d7bd22d7bf291ba68e16c807a5c776"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libsframe.so.3.0.0",
+      "size": 43512,
+      "sha256": "8ec144cd07697b4c1ff3a346541fe51d6f2e67304544c537e2e454c2d31e96ba"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3.1",
+      "size": 121272,
+      "sha256": "27fa6c6cb94fb5b099ead61758a300dbc392d1dbf307fff6c16a9b8e57fdc9de"
+    },
+    {
+      "linux_path": "/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.7",
+      "size": 796824,
+      "sha256": "060eeb79531d435306665fd78329d8a9dd579f95876c5960bb67937825362a80"
+    }
+  ],
+  "linux_utilities": [
+    {
+      "linux_path": "/usr/lib/cargo/bin/coreutils/timeout",
+      "size": 11352352,
+      "sha256": "48893b0fb21436b54619db80486e83ef39dfccaf1aefe83dfa00c02d6146e8c0"
+    }
+  ],
+  "pre_score_evidence": [
+    {
+      "relative_path": "evidence/bucket-03d/gcc-version.txt",
+      "size": 467,
+      "sha256": "8446086b93f565321fd7c977857b21a3cee0425754a081ba4c384e8b9ec52a94"
+    },
+    {
+      "relative_path": "evidence/bucket-03d/gcc-backend-help.txt",
+      "size": 29265,
+      "sha256": "dae6dfb9b082cccdaad6fed82791ee52dfbea1a7369b4244a21cbfa0536ea4af"
+    },
+    {
+      "relative_path": "evidence/bucket-03d/gcc-backend-target-help.txt",
+      "size": 4222,
+      "sha256": "7e4981c6becc9b42b133b3dde7a980790633b28704ad34229d08f0bd7e66d6b9"
+    },
+    {
+      "relative_path": "evidence/bucket-03d/snc-help.txt",
+      "size": 1113,
+      "sha256": "e3d096abd9b8d8766f4629c68999433c3b42efbc2519250c1b1ffbb115a59761"
+    },
+    {
+      "relative_path": "evidence/bucket-03d/snc-smoke.log",
+      "size": 994,
+      "sha256": "e2f6abf3f65e855481d6e94a8c850efe7b8fe7b4859c4b1c9f39812a2e67f2db"
+    },
+    {
+      "relative_path": "evidence/bucket-03d/assembler-preservation.json",
+      "size": 341,
+      "sha256": "da63f18e951b67990a7179152562fe0e785eb501923276ae994cfcd41dbafb46"
+    },
+    {
+      "relative_path": "evidence/bucket-03d/candidate-selection.json",
+      "size": 465,
+      "sha256": "6875d4885f693a8a4e99e36f7a77bb8d9cb3844e61db446e186d57c01f42f83e"
+    }
+  ],
+  "no_target_scores_observed": true
+}

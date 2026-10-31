@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "pspdecrypt": {
+    "relative_path": "toolchains/pspdecrypt/pspdecrypt",
+    "sha256": "05d323b28b3ceed86a42d019767ddcdae3e40f85dacebe25a5fe7d86f2b02c98",
+    "git_commit": "c156627db7634d395c380c0a9589130f603307fc",
+    "source_url": "https://github.com/John-K/pspdecrypt",
+    "build_command": "make -C toolchains/pspdecrypt -j4 CC=gcc CXX=g++",
+    "runtime": "Linux x86-64; WSL Ubuntu on Windows",
+    "note": "Pin of the locally built decryption helper, not a game compiler lock. Every prepared ELF is also checked against its independent reference hash."
+  }
+}

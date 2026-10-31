@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "source": "bench/archive_key_initializer.cpp",
+  "scope": "one frozen natural source hypothesis; no linked source or game match credit",
+  "probes": [
+    {
+      "name": "archive_key_initialize",
+      "address": 143008572,
+      "size": 68,
+      "target_sha256": "7d089e6e2131eb950e3d72ee437c4aab2ec4a775e0baf8c4d45901cb227cee57",
+      "category": "archive_key_seed_initialization",
+      "ownership": "unclassified; archive behavior established, original game/library ownership and class not proven",
+      "boundary_evidence": "Earlier distinct routine ends with JR/NOP at 0x08862334/38; selected JR/NOP at 0x08862378/7C; next stack prologue at 0x08862380. Direct calls and tail ingress target entry, internal branch targets remain within full 68-byte interval. See ARCHIVE_KEY_PROBE_REVIEW.md.",
+      "relocations": []
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "cases": [
+    {
+      "copies": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/control/prepared.elf",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/control/prepared.elf",
+          "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+          "size": 2247320
+        }
+      ],
+      "id": "main-control"
+    },
+    {
+      "copies": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-17/prepared.elf",
+          "sha256": "9d6c771861b8dec4ed74284809e6853d5e738f794a7c5d3052ac288a23dc71cb",
+          "size": 35232
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-17/prepared.elf",
+          "sha256": "9d6c771861b8dec4ed74284809e6853d5e738f794a7c5d3052ac288a23dc71cb",
+          "size": 35232
+        }
+      ],
+      "id": "archive-17"
+    },
+    {
+      "copies": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-18/prepared.elf",
+          "sha256": "7e49891b16f453c09433249953f9a1330555525e6a51201f63e4b3a6abbd3807",
+          "size": 1138
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-18/prepared.elf",
+          "sha256": "7e49891b16f453c09433249953f9a1330555525e6a51201f63e4b3a6abbd3807",
+          "size": 1138
+        }
+      ],
+      "id": "archive-18"
+    },
+    {
+      "copies": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-19/prepared.elf",
+          "sha256": "3eb3b7f83442370533647b46365be49463256931196610175119959729b4e466",
+          "size": 35232
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-19/prepared.elf",
+          "sha256": "3eb3b7f83442370533647b46365be49463256931196610175119959729b4e466",
+          "size": 35232
+        }
+      ],
+      "id": "archive-19"
+    },
+    {
+      "copies": [
+        {
+          "relative_path": "build/module-static-prep-hxse0az7/archive-20/prepared.elf",
+          "sha256": "129e8e7a5231a81ba919d751c2ff0b1f03f95996a27d766732bf4f5bf61085bc",
+          "size": 1138
+        },
+        {
+          "relative_path": "build/module-static-prep-8z373w8d/archive-20/prepared.elf",
+          "sha256": "129e8e7a5231a81ba919d751c2ff0b1f03f95996a27d766732bf4f5bf61085bc",
+          "size": 1138
+        }
+      ],
+      "id": "archive-20"
+    }
+  ],
+  "declared_trials": 2,
+  "format_sources": [
+    {
+      "relative_path": "evidence/bucket-03ae/helper-map-elf-gabi-program-headers.html.txt",
+      "sha256": "91787676e5dcbec67e3a9415cd43944aac9e7ed57515b81a36c3f8c1c0dce2e1",
+      "size": 43314
+    },
+    {
+      "relative_path": "evidence/bucket-03ae/helper-map-pspsdk-pspmoduleinfo.h.txt",
+      "sha256": "5deac4bc897124a187ff268570410faf8c81a72a8fca65b0aa2e651a14ca9d26",
+      "size": 5859
+    },
+    {
+      "relative_path": "evidence/bucket-03ae/helper-map-ppsspp-PSPElfTypes.h.txt",
+      "sha256": "f7188e7f5a8a99424eb5b94e513c9df75f9f20d090befba101c9ba13f634e91c",
+      "size": 7559
+    },
+    {
+      "relative_path": "evidence/bucket-03ae/helper-map-ppsspp-ElfReader.cpp.txt",
+      "sha256": "35f21f76022eae454b4486eb40c51a5d4c122165f69fbe7ce2fdde378ec9d952",
+      "size": 40559
+    },
+    {
+      "relative_path": "evidence/bucket-03ae/helper-map-format-sources.json",
+      "sha256": "3caba15c89eeab2485954a718e43337153b260d81ae35acbf131a6ebe724bdab",
+      "size": 1454
+    }
+  ],
+  "generic_reader": {
+    "relative_path": "scripts/elf32.py",
+    "sha256": "766f16f86736ed0a04eb6c1ed439bd8aa96d2aab0b0c99e49055934e2fd45833",
+    "size": 5614
+  },
+  "main_reference": {
+    "relative_path": "reference/uljm05800-v102/EBOOT.ELF",
+    "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+    "size": 2247320
+  },
+  "maximum_program_headers": 512,
+  "module_execution": false,
+  "module_info_rule": "PRX_HEADER0_PADDR_MASK7FFFFFFF_FILE_OFFSET",
+  "ownership_established": false,
+  "preparation_reports": [
+    {
+      "relative_path": "evidence/bucket-03ad/preparation-trial-1.json",
+      "sha256": "60f6d7ec4a68f9e0e7856c6873e4bebbca8162b4bbe391b19061288e1a035517",
+      "size": 289755
+    },
+    {
+      "relative_path": "evidence/bucket-03ad/preparation-trial-2.json",
+      "sha256": "8ef61c9c85e67ec2869dce7f2724b3aac8a03d034095fc86b4838ab9c4bac40d",
+      "size": 289755
+    }
+  ],
+  "preserved_inputs": [
+    {
+      "relative_path": "config/assembly-manifest.json",
+      "sha256": "391290964bfc33eb4713fe83460d71b885b34810f360d7db84799e48ce0da37a",
+      "size": 4007
+    },
+    {
+      "relative_path": "bench/archive_key_initializer.cpp",
+      "sha256": "6c4be341bcc3f113b56ccf7494a7b624a550b52f89c9c827eacbbce56e1f71d3",
+      "size": 1806
+    },
+    {
+      "relative_path": "bench/archive_key_grouped.cpp",
+      "sha256": "e1e8671b6a465df6b539a7d6d27f334b64865bc1ed15e6edf34223bdef865cbd",
+      "size": 1377
+    },
+    {
+      "relative_path": "bench/archive_key_pointer.cpp",
+      "sha256": "f2e6439d81eace695d1027900503a3d3d368f3c6b506b6a5af203dbfe56be373",
+      "size": 1391
+    },
+    {
+      "relative_path": "bench/archive_key_field_references.cpp",
+      "sha256": "20c14d1b6e848a6de1ebd3505584aa5850eaaaa34766e2378ebbdb78a4bc4c4b",
+      "size": 1304
+    },
+    {
+      "relative_path": "config/compiler-families.json",
+      "sha256": "cb0b3fbd1961380c8cee61a286bce723be7ed13c73e39bd8c949e6c701413dab",
+      "size": 46770
+    },
+    {
+      "relative_path": "config/module-static-preparation.json",
+      "sha256": "64e74c98f2560e6e0eb49d79976198850b1e748066cd4145243cab724f240784",
+      "size": 5078
+    },
+    {
+      "relative_path": "config/sce-wrapper-model.json",
+      "sha256": "abc44e51d6f922ab55100b6b985b90c31cadbdab204a820aea2690b66413a841",
+      "size": 1516
+    }
+  ],
+  "reference_lock": {
+    "relative_path": "config/reference.json",
+    "sha256": "1fcec4f311797665098137db0c3257a1c6eab77730bec05db6e73f4b513c94a6",
+    "size": 1553
+  },
+  "relocations_applied": false,
+  "schema_version": 1,
+  "source_match_credit": false
+}

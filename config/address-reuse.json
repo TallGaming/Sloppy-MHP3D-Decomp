@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_fixture_compilation",
+  "scope": "two invented grouping-only layouts; no game target comparison or source revision",
+  "archive_profile": {
+    "relative_path": "config/archive-key-experiment.json",
+    "size": 1902,
+    "sha256": "30b5372dab0d1e2fb9dc0ec4436ca0e78af1922728c5a421499a66e2a4cc5188"
+  },
+  "common_flags": [
+    "-nostdinc",
+    "-lang",
+    "c++",
+    "-c"
+  ],
+  "optimization": [
+    "-O2"
+  ],
+  "object_symbol": "initialize_key__17ArchiveKeyContextFUi",
+  "field_offsets": {
+    "lower": 106784,
+    "upper": 106788
+  },
+  "defaults": {
+    "lower": 4951,
+    "upper": 9320
+  },
+  "word_width": 4,
+  "record_extent": 106792,
+  "declared_trials": 2,
+  "no_fixture_compilation_observed": true,
+  "fixtures": [
+    {
+      "id": "direct",
+      "source": {
+        "relative_path": "bench/address_reuse_direct.cpp",
+        "size": 1058,
+        "sha256": "9def28de2b740f255cc379e7468f54dcdbbe3be367efd442170d7ae84dcff3ae"
+      }
+    },
+    {
+      "id": "grouped",
+      "source": {
+        "relative_path": "bench/address_reuse_grouped.cpp",
+        "size": 1200,
+        "sha256": "04662faba3e8e68506928bb2d2623d25cf5e6a93f8f9fb1bde3e3dd223908094"
+      }
+    }
+  ],
+  "grouping_only": true,
+  "cached_pointer_or_reference": false,
+  "static_analysis_policy": "bounded whitelisted forward CFG; unsupported is UNINTERPRETED with no materialization count; no runtime/behavior proof"
+}

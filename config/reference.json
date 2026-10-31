@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "baseline_selected_by_user": true,
+  "status": "active",
+  "cleanliness_verified": true,
+  "verification_scope": "Full ISO matches size, CRC32, MD5 and SHA-1 of the Redump entry mirrored by libretro. This is dump identity verification, not runtime testing.",
+  "iso_filename": "Monster Hunter Portable 3rd (Japan) (v1.02).iso",
+  "size": 1207140352,
+  "sha256": "20a3b77c76f3729843f4e945fe4f04085edd6f37aa6122399d296d7f2e9c3dd8",
+  "sha1": "0680394e5bd35f428711d55cf674f42e780d00b6",
+  "md5": "8e19a966356a83b8b395957671494bd8",
+  "crc32": "d875535a",
+  "disc_id": "ULJM05800",
+  "disc_version": "1.02",
+  "title": "MONSTER HUNTER PORTABLE 3rd",
+  "platform": "PSP",
+  "executable": {
+    "iso_path": "/PSP_GAME/SYSDIR/EBOOT.BIN",
+    "size": 2247664,
+    "sha256": "9a4142cbe12086f538046633f59cc9b2bbf024c91b16cbe9710078d1cef91fb5"
+  },
+  "inventory_evidence": "evidence/japan-v102-candidate.json",
+  "catalogue": {
+    "url": "https://raw.githubusercontent.com/libretro/libretro-database/master/metadat/redump/Sony%20-%20PlayStation%20Portable.dat",
+    "sha256": "9e7ad38dd1c53720b27914ca4379a3bd6eddfd5519370b592e8131c886ede313",
+    "serial": "ULJM-05800"
+  },
+  "decrypted_executable": {
+    "relative_path": "reference/uljm05800-v102/EBOOT.ELF",
+    "size": 2247320,
+    "sha256": "755e5d84262c3bb30635b32deffab11a66de118f501e4ac105f503308be8b950",
+    "decryption_tag": "D91681F0",
+    "decryption_type": 6,
+    "helper_git_commit": "c156627db7634d395c380c0a9589130f603307fc"
+  }
+}
